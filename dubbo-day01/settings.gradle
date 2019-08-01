@@ -1,0 +1,5 @@
+rootProject.name = 'integrate'
+include 'provider'
+include 'consumer'
+include 'common'
+
