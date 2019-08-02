@@ -1,0 +1,88 @@
+//gradle BUILD config, gradle-plugin is necessary
+buildscript {
+    ext {
+        springBootVersion = '2.1.6.RELEASE'
+    }
+    repositories {
+//        mavenCentral()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+/*经测试，此配置和上面的 apply plugin 冲突*/
+/*plugins {
+    id 'java'
+    id 'idea'
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+}*/
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+//to define some attributes of the JAR,
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'ProviderApplication',
+                   'Main-Class': 'com.example.provider.ProviderApplication' //blank will cause 'no main manifest attributes '
+    }
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+//    mavenCentral()
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.alibaba', name: 'druid', version: '1.1.17'
+    compile group: 'com.alibaba', name: 'dubbo', version: '2.6.6'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.1.6.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.6.RELEASE'
+
+    //>>>>org.apache.zookeeper.KeeperException$UnimplementedException
+    // Curator 2.x.x - compatible with both ZooKeeper 3.4.x and ZooKeeper 3.5.x
+    //urator 3.x.x - compatible only with ZooKeeper 3.5.x and includes support for new features such as dynamic reconfiguration, etc.
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.12', ext: 'pom'
+    compile group: 'org.apache.curator', name: 'curator-framework', version: '2.13.0'
+
+    // >>> java.lang.NoClassDefFoundError: io/netty/bootstrap/ServerBootstrap
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.38.Final'
+
+    // 用于 dubbo.configcenter-address=nacos://127.0.0.1:8848
+    compile group: 'org.apache.dubbo', name: 'dubbo-configcenter-nacos', version: '2.7.3'
+
+    // @EnableNacosConfig 和  @NacosPropertySource
+    compile group: 'com.alibaba.nacos', name: 'nacos-spring-context', version: '0.3.1'
+
+    // @NacosProperties
+    compile group: 'com.alibaba.nacos', name: 'nacos-api', version: '1.1.0'
+
+
+    //other module dependency config
+    compile project(":common")
+}
+
+//>>>>> Unable to find source java class:
+sourceSets{
+    main{
+        java{
+            srcDirs = ['src/main/java','../common/src/main/java']
+        }
+    }
+    test{
+
+    }
+}

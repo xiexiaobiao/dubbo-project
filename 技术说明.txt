@@ -1,12 +1,14 @@
-Dubbo
+
+Dubbo 2.66 
 Druid
 MBP
 Redis
 Sentinel
-zk
-Nacos
+zk 3.4.12
+Nacos 1.0.0
 Nginx
 slf4j+Logback
 Mycat
 RabbitMQ
 Shiro
+gradle 5.4.1

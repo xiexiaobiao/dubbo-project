@@ -1,0 +1,17 @@
+day02：
+
+1.配置中心可使用zk或nacos，
+zk下则默认在/dubbo/config/dubbo ，dubbo.properies是全局，
+            /dubbo/config/application ，dubbo.properies是应用级，
+
+nacos作为配置中心：配置文件由：dataId，Group，application 做区分，
+
+2.项目架构：dubbo + zk（注册中心 v3.4.12） + nacos（配置中心 v1.0.0）
+
+
+3.nacos中文件配置内容包含：user.name=kool
+
+4.效果检验：启动provider，http://localhost:8083/config/name  输出 kool
+
+
+文章技术可参考：https://yq.aliyun.com/articles/691842

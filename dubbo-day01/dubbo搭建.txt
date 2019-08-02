@@ -1,3 +1,4 @@
+day01学习心得体会：对代码，别眼高手低，看似简单，要人狠话少，上代码！
 dubbo注意事项
 1，dubbo配置有多种方法：基于xml，API和 annotation
  API使用ServiceConfig配置provider，ReferenceConfig配置consumer
@@ -14,5 +15,9 @@ dubbo注意事项
 7.gradle下载慢，可以配置repositories为alibaba的maven repository
 8.roperties文件和Bean注入的配置内容不能冲突，或者只使用其一即可
 9.@EnableDubbo或@DubboComponentScan注解放的位置不一样
+10. 查找各类依赖的最好网站：https://mvnrepository.com/
 
-学技术：人狠话少，亲自上码！
+11。效果检查：
+  启动zk--->启动provider--->启动consumer--->访问：http://localhost:8082/hello --->hello world！
+
+

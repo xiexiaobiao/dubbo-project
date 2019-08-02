@@ -1,0 +1,24 @@
+day03：
+  目标：1.实现consumer从zk获取服务列表，2.获取nacos配置中心内容。3，zkClient获取某个服务的列表
+4.能将项目打包为可运行jar
+
+注意点：
+1，使用idea进行项目构建，必须写好build.gradle
+   buildscript 是build脚本
+   jar{}，必须有，指定main入口类
+   dependencies {}下内容将打包进jar
+   sourceSets{}指定java文件和test文件的目录
+特别注意!!! ‘gradle build’是构建可独立运行的jar，‘gradle jar’是构建可供引用的jar库。这两者的文件结构不同，可打开jar包对比，jar包位置都会在：../build/libs/
+
+2，zk目录结构 
+   /(dubbo,zookeeper)
+   /dubbo/(xxx-serviceName)
+   /dubbo/(xxx-serviceName)/(consumers,configurators,routers,providers)
+   这里即可发现某个service的各种信息
+
+3，运行多个provider子项目的‘gradle build’构建的jar，通过
+   java -jar --server.port=XXX --dubbo.protocol.port=XXXXXX 
+   注意每个jar的端口不能相同，会提示端口无法bind，
+   使用consumer子项目的ZkClient可以看到多个providers的实时信息。
+
+4.
