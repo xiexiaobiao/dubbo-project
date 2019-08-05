@@ -1,0 +1,2 @@
+# whether to override the local config
+dubbo.config-center.highest-priority=true
