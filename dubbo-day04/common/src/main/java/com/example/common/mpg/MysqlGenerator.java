@@ -1,4 +1,4 @@
-package com.example.common.mpg;
+﻿package com.example.common.mpg;
 
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
@@ -97,7 +97,7 @@ public class MysqlGenerator {
             }
         };
         List<FileOutConfig> focList = new ArrayList<>();
-        /*经测试，这里的模板设置要去掉，否则出错，因为现在前后分离项目较少使用模板*/
+        /*经测试，*/
 /*        focList.add(new FileOutConfig("/templates/mapper.xml.ftl"){
             @Override
             public String outputFile(TableInfo tableInfo) {
@@ -108,7 +108,7 @@ public class MysqlGenerator {
         cfg.setFileOutConfigList(focList);
         mpg.setCfg(cfg);
         // close  xml generation,and will save at the root directory
-        mpg.setTemplate(new TemplateConfig().setXml(null));
+        mpg.setTemplate(new TemplateConfig());
 
         //策略配置
         StrategyConfig strategy = new StrategyConfig();

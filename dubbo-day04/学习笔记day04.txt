@@ -15,8 +15,11 @@
 经过多次尝试的可行方案：@SpringBootApplication(scanBasePackages = "com.example")，并配合将
 provider的启动类也放到com.example包下，不能是com.example.provider包下，
 
-2.dao类需要添加 @Mapper 否则，出现 bean not found 错误，
-注意 @Mapper 和 @Repository 的区别？
+2.dao类需要添加 @Mapper 否则，出现type bean not found 错误，需要在dao上添加两者的注解，
+或者启动类上@MapperScan（）
+注意 @Mapper 和 @Repository 的区别
+@Mapper 是iBatis的注解，用于将实体和数据表映射，
+@Repository是Spring的注解，用于注入bean，
 
 3.common/consumer均需要配置datasource.否则提示datasource错误。
 

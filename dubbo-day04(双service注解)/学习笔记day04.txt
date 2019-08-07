@@ -1,0 +1,29 @@
+目标：
+1，实现mybatis-plus的generator自动生成 2，实现provider和consumer端对dubbo服务后台DB数据查询的操作
+
+项目结构：
+   common为公共模块，提供DB实体，dao，service， provider为服务提供者，consumer为消费者，
+注意：
+1，当模块间引用bean时，需先将module依赖加入到build.gradle,再在启动类上扩大bean扫描范围
+@SpringBootApplication(scanBasePackages = {"com.example.provider","com.example.common.order"})
+
+经过多次尝试：@SpringBootApplication(scanBasePackages = "com.example")，需要配合将
+该启动类也放到com.example包下，不能是com.example.provider包下，
+
+2.dao类需要添加 @Mapper 否则，出现 bean not found 错误，
+注意 @Mapper 和 @Repository 的区别？
+
+3.common/consumer均需要配置datasource.否则提示datasource.错误。
+
+4.字段与属性关系，可指定：<result column="gmt_create" property="gmtCreate" javaType="Date" jdbcType="TIME"/>
+https://blog.csdn.net/weixin_42901061/article/details/88314798
+
+5......Cannot generate variable name for non-typed Collection return type and an em
+ 原因：在页面发送一个请求时遇到这个错误，原因是Controller 方法里的形参 List 后面没写类型，加上类型 如List<User>，就OK 了
+
+6.Mysql中Datetime类型字段自动生成的实体类，会对应为LocalDateTime类型，注意要修改为Date类型，否则出错，
+https://blog.csdn.net/weixin_42901061/article/details/88314798
+
+7，大坑：后端List有数据，但前端接收数据一致显示[{},{}]，找了几个小时，各种数据验证，原来是Lombok插件不兼容，lombok插件必须要对应相应的idea版本号，这个坑很隐蔽，不会报任何error，原因就是实体对象没有get/set导致，解决，要么直接实现get/set，要么修改lombok插件！
+
+
