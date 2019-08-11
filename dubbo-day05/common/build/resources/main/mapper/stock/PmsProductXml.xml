@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.biao.mall.common.stock.dao.PmsProductDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.biao.mall.common.stock.entity.PmsProductEntity">
+        <id column="id" property="id" />
+        <result column="brand_id" property="brandId" />
+        <result column="product_category_id" property="productCategoryId" />
+        <result column="feight_template_id" property="feightTemplateId" />
+        <result column="product_attribute_category_id" property="productAttributeCategoryId" />
+        <result column="name" property="name" />
+        <result column="pic" property="pic" />
+        <result column="product_sn" property="productSn" />
+        <result column="delete_status" property="deleteStatus" />
+        <result column="publish_status" property="publishStatus" />
+        <result column="new_status" property="newStatus" />
+        <result column="recommand_status" property="recommandStatus" />
+        <result column="verify_status" property="verifyStatus" />
+        <result column="sort" property="sort" />
+        <result column="sale" property="sale" />
+        <result column="price" property="price" />
+        <result column="promotion_price" property="promotionPrice" />
+        <result column="gift_growth" property="giftGrowth" />
+        <result column="gift_point" property="giftPoint" />
+        <result column="use_point_limit" property="usePointLimit" />
+        <result column="sub_title" property="subTitle" />
+        <result column="description" property="description" />
+        <result column="original_price" property="originalPrice" />
+        <result column="stock" property="stock" />
+        <result column="low_stock" property="lowStock" />
+        <result column="unit" property="unit" />
+        <result column="weight" property="weight" />
+        <result column="preview_status" property="previewStatus" />
+        <result column="service_ids" property="serviceIds" />
+        <result column="keywords" property="keywords" />
+        <result column="note" property="note" />
+        <result column="album_pics" property="albumPics" />
+        <result column="detail_title" property="detailTitle" />
+        <result column="detail_desc" property="detailDesc" />
+        <result column="detail_html" property="detailHtml" />
+        <result column="detail_mobile_html" property="detailMobileHtml" />
+        <result column="promotion_start_time" property="promotionStartTime" />
+        <result column="promotion_end_time" property="promotionEndTime" />
+        <result column="promotion_per_limit" property="promotionPerLimit" />
+        <result column="promotion_type" property="promotionType" />
+        <result column="brand_name" property="brandName" />
+        <result column="product_category_name" property="productCategoryName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, brand_id, product_category_id, feight_template_id, product_attribute_category_id, name, pic, product_sn, delete_status, publish_status, new_status, recommand_status, verify_status, sort, sale, price, promotion_price, gift_growth, gift_point, use_point_limit, sub_title, description, original_price, stock, low_stock, unit, weight, preview_status, service_ids, keywords, note, album_pics, detail_title, detail_desc, detail_html, detail_mobile_html, promotion_start_time, promotion_end_time, promotion_per_limit, promotion_type, brand_name, product_category_name
+    </sql>
+
+</mapper>
