@@ -2,10 +2,7 @@ package com.biao.mall.business.controller;
 
 
 import com.biao.mall.business.service.SimpleMqService;
-import com.biao.mall.common.order.service.OmsOrderService;
-import com.biao.mall.common.order.entity.OmsOrderEntity;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
@@ -25,21 +22,13 @@ import java.util.concurrent.TimeoutException;
 @RequestMapping("/order")
 public class OmsOrderController {
 
-    private OmsOrderService orderService;
     private SimpleMqService simpleMqService;
 
     @Autowired
-    public OmsOrderController(OmsOrderService orderService,SimpleMqService simpleMqService){
-        this.orderService = orderService;
+    public OmsOrderController(SimpleMqService simpleMqService){
         this.simpleMqService = simpleMqService;
     }
 
-    @RequestMapping("/one")
-    public void submitOrder(@RequestBody OmsOrderEntity orderEntity) throws IOException, TimeoutException {
-        orderService.submitOneOrder(orderEntity);
-        //库存异步操作
-
-    }
 
     @RequestMapping("/smq")
     public void submitOrder() throws IOException, TimeoutException {

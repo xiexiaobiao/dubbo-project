@@ -58,7 +58,7 @@ public class MpgGenerator {
 
         //数据源设置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/mall?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/dubbo_db?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
@@ -116,7 +116,7 @@ public class MpgGenerator {
         strategy.setEntityLombokModel(true);
 //        strategy.setSuperControllerClass("com.baomidou.mybatisplus.samples.generator.common.BaseController");
         strategy.setInclude(scanner("table-name"));//需要包含的表名，允许正则表达式（与exclude二选一配置）
-//        strategy.setExclude(null);
+//        strategy.setExclude(null);//此句生效则生成所有表的对象
 //        strategy.setSuperEntityColumns(""); //父类的公共字段
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");

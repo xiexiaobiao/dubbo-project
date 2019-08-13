@@ -1,14 +1,16 @@
 
 Dubbo 2.66 
-Druid
-MBP 
-Redis
-Sentinel
+Druid 1.1.18
+MBP 3.1.2
 zk 3.4.12
 Nacos 1.0.0
+gradle 5.4.1
+RabbitMQ 3.7.13
+Redis 
+Sentinel
 Nginx
 slf4j+Logback
 Mycat
-RabbitMQ 3.7.13
 Shiro
-gradle 5.4.1
+JWT 
+mongoDB

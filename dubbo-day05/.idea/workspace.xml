@@ -8,6 +8,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,6 +49,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="dubbo-mall" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dubbo-mall" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dubbo-mall" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -45,6 +70,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,16 +103,20 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper\stock" />
-      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper\order" />
-      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper\mapper" />
-      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources" />
       <recent name="D:\01JavaStudy\dubbo-mall\business\src\main\resources" />
       <recent name="D:\01JavaStudy\dubbo-mall\stock\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.biao.mall.stock.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources" />
+      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper\stock" />
+      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper\order" />
+      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper\mapper" />
+      <recent name="D:\01JavaStudy\dubbo-mall\common\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -106,30 +136,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BusinessApplication (1)">
+  <component name="RunManager" selected="Spring Boot.StockApplication">
+    <configuration name="MpgGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.mall.common.mpg.MpgGenerator" />
+      <module name="dubbo-mall.common.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.mall.common.mpg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dubbo-mall [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="dubbo-mall:common [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -252,8 +276,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BusinessApplication (1)" />
         <item itemvalue="Spring Boot.StockApplication" />
+        <item itemvalue="Application.MpgGenerator" />
+        <item itemvalue="Spring Boot.BusinessApplication (1)" />
         <item itemvalue="Spring Boot.BusinessApplication (1)" />
         <item itemvalue="Gradle.dubbo-mall [clean]" />
       </list>
@@ -277,6 +302,9 @@
       <workItem from="1565358126648" duration="1109000" />
       <workItem from="1565359257592" duration="4155000" />
       <workItem from="1565485820827" duration="12051000" />
+      <workItem from="1565499349091" duration="11071000" />
+      <workItem from="1565620979337" duration="181000" />
+      <workItem from="1565698595653" duration="1065000" />
     </task>
     <servers />
   </component>
