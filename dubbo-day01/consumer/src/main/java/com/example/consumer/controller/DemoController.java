@@ -1,5 +1,7 @@
 package com.example.consumer.controller;
 
+import com.alibaba.dubbo.config.ReferenceConfig;
+import com.alibaba.dubbo.config.ServiceConfig;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.example.common.api.GreetingService;
 import com.example.common.constant.AnnotationConstants;

@@ -27,6 +27,11 @@ public class GreetingServiceImpl implements GreetingService, Serializable {
     }
 
     private void sleepWhile() {
-
+        //模拟处理过程
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

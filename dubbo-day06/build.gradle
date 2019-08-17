@@ -1,0 +1,47 @@
+
+//gradle.properties放统一的group和version配置
+
+//全部模块的统一配置
+allprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+}
+
+//所有子模块的配置
+subprojects {
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+    dependencies {
+        //>>>>>>>>>> SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+        testCompile group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.26'
+
+        compile group: 'com.alibaba', name: 'dubbo', version: '2.6.6'
+        //        compile group: 'com.alibaba', name: 'druid', version: '1.1.19'
+        compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.18'
+        //
+        compile group: 'com.alibaba', name: 'fastjson', version: '1.2.58'
+        compile group: 'com.baomidou', name: 'mybatis-plus-generator', version: '3.1.2'
+        compile group: 'com.baomidou', name: 'mybatis-plus', version: '3.1.2'
+        compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.1.2'
+        //
+        compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+        //>>>>> Caused by: java.lang.ClassNotFoundException: org.apache.velocity.context.Context
+        compile group: 'org.apache.velocity', name: 'velocity-engine-core', version: '2.1'
+        // to use the StringUtils
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+        // >>>>>>>>>java.lang.ClassNotFoundException: org.springframework.core.io.ResourceLoader
+        compile group: 'org.springframework', name: 'spring-core', version: '5.1.9.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.1.6.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.6.RELEASE'
+        compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+        // LoggerFactory
+        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.26'
+
+
+
+
+
+
+    }
+}

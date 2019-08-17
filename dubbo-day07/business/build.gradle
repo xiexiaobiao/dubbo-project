@@ -1,0 +1,22 @@
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //rabbitMQ的原版包，business模块这里消息发送使用原版包，消息接收使用springboot-starter包
+    compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.7.0'
+    compile group: 'org.apache.curator', name: 'curator-framework', version: '2.13.0'
+    // springboot对rabbitMQ的集成包
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.1.6.RELEASE'
+
+    //other module dependency config
+    compile project(":common")
+}
+
+//if code include the chinese content
+//>>>>>>>>>>>> unmappable character for encoding GBK,
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}

@@ -2,7 +2,6 @@ package com.example.consumer.conf;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ConsumerConfig;
-import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.context.annotation.Bean;
@@ -24,7 +23,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @EnableDubbo(scanBasePackages = "com.example.consumer")
-@PropertySource("classpath:/spring/consumer_properties")
+@PropertySource("classpath:/spring/consumer.properties")
 public class ConsumerConf {
 
     /**
@@ -54,7 +53,7 @@ public class ConsumerConf {
     public ConsumerConfig consumerConfig(){
         ConsumerConfig consumerConfig = new ConsumerConfig();
         consumerConfig.setTimeout(3000);
-        consumerConfig.setCheck(false);//服务检查，可以先false，防止有些提供的服务还没有，会报错，
+        consumerConfig.setCheck(false);//服务检查，可以先false，防止有些提供的服务还没完全加载，会报错，
         return consumerConfig;
     }
 

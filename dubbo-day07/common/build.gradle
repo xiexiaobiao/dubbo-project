@@ -1,0 +1,46 @@
+//gradle2.1 以上添加插件语法
+/*plugins {
+    id 'java'
+}*/
+
+//gradle2.1 以下添加插件语法
+//apply plugin: "com.jxpanda.generator"
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.7.0'
+    // springboot对rabbitMQ的集成包
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.1.6.RELEASE'
+
+}
+
+//a task DEMO
+task helloTask(group:'hard',description:'task learn'){
+    //直接写在闭包里面的，是在配置阶段就执行的
+    println 'this is helloTask'
+    doFirst {
+        println 'task in do first'  //运行任务时，会第一个执行
+    }
+    doLast {
+        println 'task in do last'   //运行任务时，会最后一个执行
+    }
+}
+
+//if code include the chinese content
+//>>>>>>>>>>>> unmappable character for encoding GBK,
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+//>>>>> Unable to find source java class:
+/*sourceSets{
+    main{
+        java{
+            srcDirs = ['src/main/java','../common/src/main/java']
+        }
+    }
+    test{
+
+    }
+}*/
+

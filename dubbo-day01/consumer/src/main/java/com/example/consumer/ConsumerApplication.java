@@ -12,7 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Version 1.0
  **/
 @SpringBootApplication
-//@DubboComponentScan(basePackages = "com.example.consumer") //Enables Dubbo components as Spring Beans @since 2.5.7,also can use @EnableDubbo instead
+//@DubboComponentScan(basePackages = "com.example.consumer")
+// Enables Dubbo components as Spring Beans @since 2.5.7,also can use @EnableDubbo instead
 public class ConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerApplication.class,args);
