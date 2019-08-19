@@ -19,12 +19,8 @@ public class ConfigTest {
     @Value("${user.name}")
     private String name;
 
-    public void setName(String name){
-        this.name = name;
-    }
-
     @RequestMapping(value = "/name",method = RequestMethod.GET)
     public String getConfigCenter(){
-        return name;
+        return this.name;
     }
 }

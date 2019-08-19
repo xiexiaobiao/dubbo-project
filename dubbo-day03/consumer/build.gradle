@@ -16,6 +16,7 @@ apply plugin: 'org.springframework.boot' //这才会将第三方jar打包进来
 apply plugin: 'io.spring.dependency-management'
 
 /*经测试，此配置和上面的 apply plugin 冲突*/
+//over gradleV2.1
 /*plugins {
     id 'java'
 }*/
@@ -48,7 +49,7 @@ dependencies {
     //>>>>>com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method
     compile group: 'io.netty', name: 'netty-all', version: '4.1.38.Final'
 
-    //
+    //zkclient
     compile group: 'com.101tec', name: 'zkclient', version: '0.11'
 
     // @EnableNacosConfig 和  @NacosPropertySource

@@ -1,4 +1,5 @@
 day02：
+目标：nacos做配置中心
 
 1.配置中心可使用zk或nacos，
 zk下则默认在/dubbo/config/dubbo ，dubbo.properies是全局，

@@ -23,9 +23,7 @@ common为公共接口类，具体实现在其他module，当business引用stock�
    延迟消费模型：(dlx/ttl设置的)Queue --(未正常消费后)-->  exchange --(binding)-> DLQueue ---->消费者
 
 4，多模块调用：
-  Service A不应直接调用B的Dao层，而是应该调用B的Service层业务实现，因为B的Service是对其Dao的CRUD封装，在多库且有缓存的情况下，可能存在跨库操作，
-  直接调用B的Dao显然是不合理的。简单的说就是为了代码结构更清晰，长远点说就是方便以后不同模块之间进行项目拆分。如果被调用service没有需要的逻辑，可再抽象
-  出一个新的service供调用。
+  Service A不应直接调用B的Dao层，而是应该调用B的Service层业务实现，因为B的Service是对其Dao的CRUD封装，在多库且有缓存的情况下，可能存在跨库操作，直接调用B的Dao显然是不合理的。简单的说就是为了代码结构更清晰，长远点说就是方便以后不同模块之间进行项目拆分。如果被调用service没有需要的逻辑，可再抽象出一个新的service供调用。
 
 5，项目验证：
    Postman：http://localhost:8083/producer/msg
@@ -36,3 +34,5 @@ common为公共接口类，具体实现在其他module，当business引用stock�
    headers：Content-Type : application/json
    发送body：{"key":"xiao2","value":"biao2"}
    控制台也可以看到整个消息流通顺序。
+
+6.如果在使用中，修改了比如exchange或queue的配置，再启动程序会报错，提示属性如routingKey冲突，可以直接先MQ管理界面删除exchange或queue，启动程序会重建。
