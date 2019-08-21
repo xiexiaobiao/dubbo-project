@@ -1,4 +1,4 @@
-﻿package com.example.common.mpg;
+package com.example.common.mpg;
 
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.generator.AutoGenerator;

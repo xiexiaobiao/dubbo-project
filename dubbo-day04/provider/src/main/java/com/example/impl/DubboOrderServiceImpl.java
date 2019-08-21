@@ -21,7 +21,8 @@ import java.util.List;
  * @since 2019-08-04
  */
 @Service(version = AnnotationConstants.VERSION)
-public class DubboOrderServiceImpl extends ServiceImpl<DubboOrderDao, DubboOrderEntity> implements DubboOrderService {
+public class DubboOrderServiceImpl extends ServiceImpl<DubboOrderDao, DubboOrderEntity>
+        implements DubboOrderService {
 
     private DubboOrderDao dubboOrderDao;
 

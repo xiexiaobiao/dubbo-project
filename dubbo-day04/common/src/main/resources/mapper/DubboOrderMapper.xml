@@ -9,14 +9,15 @@
         <result column="gmt_modified" property="gmtModified" javaType="Date" jdbcType="TIME"/>
         <result column="order_id" property="orderId" javaType="String" jdbcType="VARCHAR"/>
         <result column="detail_id" property="detailId" javaType="String" jdbcType="VARCHAR"/>
-        <result column="is_valid" property="isValid" javaType="Boolean" jdbcType="TINYINT"/>
+        <result column="is_paid" property="paid" javaType="Boolean" jdbcType="TINYINT"/>
+        <result column="user_id" property="userId" javaType="Boolean" jdbcType="TINYINT"/>
         <result column="is_expired" property="isExpired" javaType="Boolean" jdbcType="TINYINT"/>
         <result column="order_esc" property="orderDesc" javaType="String" jdbcType="VARCHAR"/>
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id AS id,gmt_create AS gmtCreate, gmt_modified AS gmtModified, order_id AS orderId,detail_id AS detailId,is_valid AS isValid, is_expired AS isExpired,order_esc AS orderDesc
+        id AS id,gmt_create AS gmtCreate, gmt_modified AS gmtModified, order_id AS orderId,detail_id AS detailId, is_paid AS paid, user_id as userId,is_expired AS isExpired,order_esc AS orderDesc
     </sql>
 
 </mapper>

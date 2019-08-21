@@ -33,19 +33,19 @@ common为公共接口类，具体实现在其他module，当business引用stock(
   生成的SQL是除了PK外，直接set其他所有字段，导致无法更新。
   解决：1.dao中自己写update方法，除去UQ字段  2，更好的：DB中的字段，都不要使用UQ，应该在应用层处理，这是个原则，DB只存数据，尽量少逻辑
 
-7.我认为是一个大收获，终于用体会到了什么是事务的传播属性。
+7.我认为是一个大收获，看到了分布式事务的典型场景。
   business，和stock模块中的所有update相关方法都加了@Transational，但是business中出错时，stock中的update并不会回退！只有business模块的
-  数据回退了，因为stock模块的事务是独立发起的，与business事务无关，这里就需要使用 事务的传播属性了，
+  数据回退了，因为stock模块的事务是独立发起的，与business事务无关，这里就需要使用分布式事务了，
 
 8.一个细节：dubboStockDao.update(stockEntity,qw)，，，qw可以为null，如果qw为null，这下就完蛋啦。直接会会update全表！
   务必确保 qw要非空！！！
 
 9.一个大坑：报错 ： invocation method error.
    无法使用RPC调用 update(stockEntity,qw)，mybatis-plus 官方已经明确有说wrapper不支持RPC通信？？？
-  解决小技巧：RPC调用update(stockEntity,itemId)，服务提供者本地使用update(stockEntity,qw)，其中的qw(QueryWrapper)使用
+  解决小技巧：RPC调用update(stockEntity)，服务提供者本地使用update(stockEntity,qw)，或者updateById(stockEntity)其中的qw(QueryWrapper)使用
   itemId来构造即可，这样就不用自己去写dao的update方法了！
 
-3, postman测试验证，大功告成！ post, 选 raw + json，
+3, postman测试验证，大功告成！ post提交,内容 选 raw + json，
   {
   	"gmtCreate": "2019-08-15T00:00:00",
   	"userId": "da",

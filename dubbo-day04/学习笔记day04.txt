@@ -29,7 +29,7 @@ https://blog.csdn.net/weixin_42901061/article/details/88314798
 5......Cannot generate variable name for non-typed Collection return type and an em
  几个小时，终于找到原因：在页面发送一个请求时遇到这个错误，原因是Controller 方法里的返回形参 List 后面没写类型，加上类型 如List<User>，就OK 了
 
-6.Mysql中Datetime类型字段自动生成的实体类，会对应为LocalDateTime类型，注意要修改为Date类型，否则出错，
+6.Mysql中Datetime类型字段自动生成的实体类，会对应为LocalDateTime类型，可以修改为Date类型，，
 https://blog.csdn.net/weixin_42901061/article/details/88314798
 
 7，大坑：后端List有数据，但前端接收数据一致显示[{},{}]，找了几个小时，各种数据验证，原来是Lombok插件不兼容，lombok插件必须要对应相应的idea版本号，这个坑很隐蔽，不会报任何error，原因就是实体对象没有get/set导致，解决，要么直接实现get/set，要么修改lombok插件！

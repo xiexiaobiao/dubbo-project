@@ -33,19 +33,28 @@ public class DubboOrderEntity implements Serializable {
     private Date gmtCreate;
     @TableField("gmt_modified")
     private Date gmtModified;
-
     private String orderId;
-
     private String detailId;
 
-    private Boolean isValid;
+    @TableField("is_paid")
+    private Boolean paid;
+    @TableField("is_expired")
+    private Boolean expired;
 
-    private Boolean isExpired;
+    private String userId;
 
     private String orderDesc;
 
     public static long getSerialVersionUID() {
         return serialVersionUID;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public Long getId() {
@@ -89,19 +98,19 @@ public class DubboOrderEntity implements Serializable {
     }
 
     public Boolean getValid() {
-        return isValid;
+        return paid;
     }
 
     public void setValid(Boolean valid) {
-        isValid = valid;
+        paid = paid;
     }
 
     public Boolean getExpired() {
-        return isExpired;
+        return expired;
     }
 
     public void setExpired(Boolean expired) {
-        isExpired = expired;
+        this.expired = expired;
     }
 
     public String getOrderDesc() {
@@ -120,8 +129,8 @@ public class DubboOrderEntity implements Serializable {
                 ", gmtModified=" + gmtModified +
                 ", orderId='" + orderId + '\'' +
                 ", detailId='" + detailId + '\'' +
-                ", isValid=" + isValid +
-                ", isExpired=" + isExpired +
+                ", Valid=" + expired +
+                ", Expired=" + expired +
                 ", orderDesc='" + orderDesc + '\'' +
                 '}';
     }

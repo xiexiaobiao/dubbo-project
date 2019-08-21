@@ -2,75 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40fc57b3-a8fa-4749-aa29-59e6db02a5b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dubbo-day02/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-day02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-day03/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-day03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/common/build/libs/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/classes/java/main/com/example/consumer/ConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/classes/java/main/com/example/consumer/conf/ConsumerConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/classes/java/main/com/example/consumer/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/consumer/build/resources/main/spring/consumer_properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/provider/build/classes/java/main/com/example/provider/controller/ConfigTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/provider/build/classes/java/main/com/example/provider/controller/ConfigTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/provider/build/resources/main/spring/dubbo-provider.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/provider/build/resources/main/spring/dubbo-provider.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/provider/src/main/java/com/example/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/provider/src/main/java/com/example/provider/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/provider/src/main/java/com/example/provider/controller/ConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/provider/src/main/java/com/example/provider/controller/ConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day02/项目说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day02/项目说明.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql.script" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dubbo-day03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/common/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/common/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/common/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/consumer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/consumer/ConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/consumer/conf/ConsumerConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/consumer/conf/NacosConfCenterConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/consumer/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/consumer/controller/NacosConfigCenterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/classes/java/main/com/example/consumer/controller/ZKClientController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/build/resources/main/spring/consumer_properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/consumer/src/main/java/com/example/consumer/controller/ZKClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/consumer/src/main/java/com/example/consumer/controller/ZKClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/provider/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/provider/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/provider/out/production/classes/com/example/provider/ProviderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/provider/out/production/classes/com/example/provider/config/ProviderConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/provider/out/production/resources/spring/dubbo-provider.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day03/provider/src/main/java/com/example/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day03/provider/src/main/java/com/example/provider/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/integrated-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/integrated-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day05/READMEday05.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day05/READMEday05.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/mapper/DubboOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/mapper/DubboOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/api/GreetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/api/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/bo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/mpg/MysqlGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/mpg/MysqlGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/order/dao/DubboOrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/order/dao/DubboOrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/order/entity/DubboOrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/order/entity/DubboOrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/order/service/DubboOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/order/service/DubboOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/mapper/DubboOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/mapper/DubboOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/consumer/conf/NacosConfCenterConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/consumer/controller/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/consumer/controller/DubboOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/consumer/controller/DubboOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/consumer/controller/NacosConfigCenterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build/classes/java/main/com/example/consumer/controller/ZKClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/consumer/conf/NacosConfCenterConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/consumer/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/consumer/controller/DubboOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/example/consumer/controller/DubboOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/consumer/controller/NacosConfigCenterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/example/consumer/controller/ZKClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/config/NacosConfigCenterConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/impl/DubboOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/impl/DubboOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/impl/GreetingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/config/NacosConfigCenterConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/impl/DubboOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/example/impl/DubboOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/example/impl/GreetingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/学习笔记day04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/学习笔记day04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day07/READMEday07.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day07/READMEday07.TXT" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +109,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="integrate" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="integrate" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="integrate" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -158,7 +159,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Olvh08VF82oU1I3i4yLFQJgMkm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -168,7 +171,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564500034343" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/java/com/example/common/mpg/MysqlGenerator.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -176,7 +179,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -374,6 +377,7 @@
       <workItem from="1565008105102" duration="2643000" />
       <workItem from="1565010824949" duration="2130000" />
       <workItem from="1566224505974" duration="107000" />
+      <workItem from="1566393997853" duration="4990000" />
     </task>
     <servers />
   </component>
@@ -385,7 +389,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

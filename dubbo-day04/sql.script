@@ -1,0 +1,16 @@
+CREATE database dubbo_db;
+
+use dubbo_db;
+
+CREATE TABLE `dubbo_order` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `gmt_create` datetime DEFAULT NULL,
+  `gmt_modified` datetime DEFAULT NULL,
+  `order_id` varchar(45) DEFAULT NULL COMMENT '订单id',
+  `detail_id` varchar(45) DEFAULT NULL COMMENT '明细id',
+  `is_paid` tinyint(1) DEFAULT NULL COMMENT '是否付款',
+  `is_expired` tinyint(1) DEFAULT NULL COMMENT '是否过期',
+  `user_id` varchar(45) DEFAULT NULL,
+  `order_desc` varchar(45) DEFAULT NULL COMMENT '订单描述',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20034 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='交易订单表'
