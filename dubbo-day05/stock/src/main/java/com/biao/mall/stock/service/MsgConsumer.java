@@ -37,12 +37,12 @@ public class MsgConsumer {
     @RabbitHandler //消息处理方法
     public void process(Map<String,Object> map){
         logger.info("==current service : mq==start");
-        logger.info("to handle the received msg>>>> " + map + "\n  current thread name>>>>" + Thread.currentThread().getName()
+        logger.info("to handle the received msg>>>> " + map + "\n  current thread name>>>>"
+                + Thread.currentThread().getName()
                 + "\n thread id>>>>" + Thread.currentThread().getId());
 /*        JSONObject jsonObject = new JSONObject();
         jsonObject.putAll(map);
         String resultStr = HttpUtils.doPost(URL,jsonObject);*/
-
         String jsonString = JSON.toJSONString(map);
         sendPost(jsonString);
         logger.info("==current service: mq===end");

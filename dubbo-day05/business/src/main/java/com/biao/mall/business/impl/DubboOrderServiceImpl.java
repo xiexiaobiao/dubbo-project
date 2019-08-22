@@ -34,13 +34,13 @@ public class DubboOrderServiceImpl extends ServiceImpl<DubboOrderDao, DubboOrder
     @Reference
     private DubboStockService stockService;
 
-    public boolean saveNoPaidOrder(DubboOrderEntity orderEntity){
-        orderDao.insert(orderEntity);
-        DubboStockEntity stockEntity = new DubboStockEntity();
-        //fixme
-        orderDetailDao.selectById(orderEntity.getDetailId());
-        stockEntity.setItemId();
-        stockService.saveStock(stockEntity);
-        return true;
-    }
+//    public boolean saveNoPaidOrder(DubboOrderEntity orderEntity){
+//        orderDao.insert(orderEntity);
+//        DubboStockEntity stockEntity = new DubboStockEntity();
+//        //fixme
+//        orderDetailDao.selectById(orderEntity.getDetailId());
+//        stockEntity.setItemId();
+//        stockService.saveStock(stockEntity);
+//        return true;
+//    }
 }

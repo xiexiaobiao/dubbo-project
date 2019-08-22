@@ -47,15 +47,10 @@ private final Logger logger = LoggerFactory.getLogger(RabbitConf.class);
     private String password;
 
     public static final String V_HOST= "/mall";
-
     public static final String EXCHANGE_A = "mall.exchange_A";
-
     public static final String QUEUE_A = "mall.queue_A";
-
     public static final String DLX_ROUTING_KEY_A = "mall.routingKey_A";
-
     public static final String DLX_EXCHANGE_B = "mall.dlx.exchange_B";
-
     public static final String DLQ_QUEUE_B = "mall.dlq.queue_B";
 
     @Bean
@@ -127,8 +122,9 @@ private final Logger logger = LoggerFactory.getLogger(RabbitConf.class);
 
     //消费者开启多线程
     @Bean(name = "customContainerFactory")
-    public SimpleRabbitListenerContainerFactory containerFactory(SimpleRabbitListenerContainerFactoryConfigurer configurer,
-                                                                 ConnectionFactory connectionFactory){
+    public SimpleRabbitListenerContainerFactory containerFactory(
+            SimpleRabbitListenerContainerFactoryConfigurer configurer,
+            ConnectionFactory connectionFactory){
         SimpleRabbitListenerContainerFactory factory = new SimpleRabbitListenerContainerFactory();
         factory.setConcurrentConsumers(10);
         factory.setMaxConcurrentConsumers(30);

@@ -24,13 +24,16 @@ import java.util.List;
 @RequestMapping("/dubbo")
 public class DubboStockController {
 
-    @Autowired
-    private com.biao.mall.common.service.DubboStockService DubboStockService ;
+    private DubboStockService dubboStockService ;
 
-    //todo delete test
+    @Autowired
+    public DubboStockController(DubboStockService dubboStockService){
+        this.dubboStockService = dubboStockService;
+    }
+
     @RequestMapping("/stock")
     public List<DubboStockEntity> listStock(){
-        List<DubboStockEntity> list =  DubboStockService.listStock();
+        List<DubboStockEntity> list =  dubboStockService.listStock();
         System.out.println("list.size() >>> "+list.size());
         System.out.println(list);
         //测试统一异常处理

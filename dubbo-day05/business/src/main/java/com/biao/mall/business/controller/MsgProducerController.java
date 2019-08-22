@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Classname MsgProducerController
@@ -26,6 +27,7 @@ import java.util.HashMap;
 public class MsgProducerController {
 
     private static Logger logger = LoggerFactory.getLogger(MsgProducerController.class);
+
     private AmqpTemplate amqpTemplate;
     private MsgProducer msgProducer;
 
@@ -37,14 +39,13 @@ public class MsgProducerController {
 
     @RequestMapping("/msg")
     public String send(){
-        String content = "time: "+ System.currentTimeMillis();
+        String content = "来自交易模块。time: "+ System.currentTimeMillis();
         amqpTemplate.convertAndSend(RabbitConf.QUEUE_A,content);
         return "R.ok()";
     }
     @PostMapping("/msg2")
     public String send2(@RequestBody HashMap<String,Object> params){
-        logger.info("params: "+params);
-        String content = System.currentTimeMillis() + "";
+        logger.info("来自交易模块。 params: "+params);
         msgProducer.sendMsg(params);
         return "R.ok()";
     }

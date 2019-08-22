@@ -40,7 +40,8 @@ public class MsgProducer implements RabbitTemplate.ConfirmCallback {
         //每个消息的唯一ID值,用于消息幂等和防丢
         CorrelationData correlationData = new CorrelationData(UUID.randomUUID().toString());
         //convertAndSend是一个多态方法，可以发送Object对象类型
-        rabbitTemplate.convertAndSend(RabbitConf.EXCHANGE_A,RabbitConf.DLX_ROUTING_KEY_A,map,correlationData);
+        rabbitTemplate.convertAndSend(RabbitConf.EXCHANGE_A,RabbitConf.DLX_ROUTING_KEY_A,
+                map,correlationData);
     }
 
     // 回调重写

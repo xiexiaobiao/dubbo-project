@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df40ccf-5ac0-421a-acab-13a515eeeda3" name="Default Changelist" comment="" />
+    <list default="true" id="6df40ccf-5ac0-421a-acab-13a515eeeda3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day04/common/build/libs/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/api/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/bo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/conf/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/exception/MybatisPlusException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/mpg/MysqlGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/mpg/MysqlGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/order/dao/DubboOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/order/entity/DubboOrderEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/common/order/service/DubboOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/consumer/ConsumerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/consumer/conf/ConsumerConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/classes/java/main/com/example/consumer/controller/DubboOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day04/consumer/build/resources/main/spring/consumer_properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authority/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/com/biao/mall/business/controller/MsgProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/com/biao/mall/business/controller/MsgProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/com/biao/mall/business/impl/DubboOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/com/biao/mall/business/impl/DubboOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/com/biao/mall/business/service/MsgProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/com/biao/mall/business/service/MsgProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/conf/MyWebFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/conf/MyWebFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/conf/RabbitConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/conf/RabbitConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/mpg/MpgGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/mpg/MpgGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/mpg/MpgGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/mpg/MpgGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/util/ConnectionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/biao/mall/common/util/ConnectionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT'.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT'.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/biao/mall/common/conf/RabbitConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/biao/mall/common/conf/RabbitConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/build/classes/java/main/com/biao/mall/stock/controller/DubboStockController.class" beforeDir="false" afterPath="$PROJECT_DIR$/stock/build/classes/java/main/com/biao/mall/stock/controller/DubboStockController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/build/classes/java/main/com/biao/mall/stock/service/MqHandlerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/stock/build/classes/java/main/com/biao/mall/stock/service/MqHandlerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/build/classes/java/main/com/biao/mall/stock/service/MsgConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/stock/build/classes/java/main/com/biao/mall/stock/service/MsgConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/biao/mall/stock/controller/DubboStockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/biao/mall/stock/controller/DubboStockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/biao/mall/stock/service/MsgConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/biao/mall/stock/service/MsgConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../项目说明.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +142,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -85,14 +155,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1P366LFq4RcBHEEI5dO4ioolnCZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT'.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -100,7 +172,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -277,8 +349,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.StockApplication" />
-        <item itemvalue="Application.MpgGenerator" />
         <item itemvalue="Spring Boot.BusinessApplication (1)" />
+        <item itemvalue="Application.MpgGenerator" />
         <item itemvalue="Spring Boot.BusinessApplication (1)" />
         <item itemvalue="Gradle.dubbo-mall [clean]" />
       </list>
@@ -305,10 +377,26 @@
       <workItem from="1565499349091" duration="11071000" />
       <workItem from="1565620979337" duration="181000" />
       <workItem from="1565698595653" duration="1065000" />
+      <workItem from="1566469445220" duration="937000" />
+      <workItem from="1566471590127" duration="180000" />
+      <workItem from="1566471790294" duration="11777000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
