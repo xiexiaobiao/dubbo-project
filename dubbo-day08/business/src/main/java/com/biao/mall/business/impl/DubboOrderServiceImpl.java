@@ -102,7 +102,7 @@ public class DubboOrderServiceImpl extends ServiceImpl<DubboOrderDao, DubboOrder
                  //库存是否足够
                 if (itemBO.getQuantity() <= stockEntity.getQuantity() - stockEntity.getQuantityLock()){
                         stockEntity.setQuantityLock(stockEntity.getQuantityLock() + itemBO.getQuantity());
-                        stockEntity.setQuantity(stockEntity.getQuantity() - itemBO.getQuantity());
+//                        stockEntity.setQuantity(stockEntity.getQuantity() - itemBO.getQuantity());
                         stockEntity.setGmtModified(TimeUtil.getTimeNow());
 //                        qw.eq(true,"item_id",itemBO.getItemId());
                         stockService.updateStockRPC(stockEntity);

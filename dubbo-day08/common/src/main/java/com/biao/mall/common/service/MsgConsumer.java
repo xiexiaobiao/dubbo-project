@@ -27,12 +27,11 @@ import java.util.Map;
  * @Version 1.0
  **/
 @Service
-@RabbitListener(queues = RabbitConf.QUEUE_A,containerFactory = "customContainerFactory")//指定监听的队列
 public class MsgConsumer {
 
     private final Logger logger = LoggerFactory.getLogger(MsgConsumer.class);
-//    private final static String URL = "http://localhost:8085/delivery/one";
 
+    @RabbitListener(queues = RabbitConf.QUEUE_A,containerFactory = "customContainerFactory")//指定监听的队列
     @RabbitHandler //消息处理方法,参数对应于MQ发送者
     public void process(Map<String,Object> map){
         logger.info("==current service : mq==start");
@@ -42,7 +41,6 @@ public class MsgConsumer {
 /*        JSONObject jsonObject = new JSONObject();
         jsonObject.putAll(map);
         String resultStr = HttpUtils.doPost(URL,jsonObject);*/
-
         String jsonString = JSON.toJSONString(map);
         sendPost(jsonString);
         logger.info("==current service: mq===end");

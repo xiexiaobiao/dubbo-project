@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/gradle-5.4.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/admin" />
+            <option value="$PROJECT_DIR$/authority" />
+            <option value="$PROJECT_DIR$/business" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/logistic" />
+            <option value="$PROJECT_DIR$/member" />
+            <option value="$PROJECT_DIR$/portal" />
+            <option value="$PROJECT_DIR$/search" />
+            <option value="$PROJECT_DIR$/stock" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

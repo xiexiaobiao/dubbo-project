@@ -1,0 +1,12 @@
+rootProject.name = 'dubbo-mall'
+include 'stock'
+include 'business'
+include 'portal'
+include 'common'
+include 'authority'
+include 'member'
+include 'admin'
+include 'search'
+include 'logistic'
+include 'logistic'
+
