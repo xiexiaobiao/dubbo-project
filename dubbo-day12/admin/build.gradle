@@ -1,0 +1,31 @@
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //
+    compile group: 'com.auth0', name: 'java-jwt', version: '3.8.2'
+    //
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '2.1.6.RELEASE'
+    //
+    compile group: 'org.apache.shiro', name: 'shiro-core', version: '1.4.1'
+    // AuthenticatingFilter
+    compile group: 'org.apache.shiro', name: 'shiro-web', version: '1.4.1'
+    //
+    compile group: 'org.apache.shiro', name: 'shiro-spring', version: '1.4.1'
+    //这个依赖不能少 error >>>>> SecurityManager can not autowired
+    compile group: 'org.apache.shiro', name: 'shiro-spring-boot-web-starter', version: '1.4.1'
+
+    //HttpStatus.SC_NON_AUTHORITATIVE_INFORMATION
+    compile group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.12'
+    //other module dependency config
+    compile project(":common")
+}
+
+//if code include the chinese content
+//>>>>>>>>>>>> unmappable character for encoding GBK,
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
