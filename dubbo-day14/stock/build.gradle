@@ -1,0 +1,35 @@
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //rabbitMQ的原版包，这里消息发送使用原版包，消息接收使用springboot-starter包
+//    compile group: 'com.rabbitmq', name: 'amqp-client', version: '3.4.1'
+
+    //>>>>org.apache.zookeeper.KeeperException$UnimplementedException
+    // Curator 2.x.x - compatible with both ZooKeeper 3.4.x and ZooKeeper 3.5.x
+    // Curator 3.x.x - compatible only with ZooKeeper 3.5.x and includes support for new features such as dynamic reconfiguration, etc.
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.5.5', ext: 'pom'
+    compile group: 'org.apache.curator', name: 'curator-framework', version: '4.2.0'
+
+    // springboot对rabbitMQ的集成包
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-amqp', version: '2.1.6.RELEASE'
+    // sentinel dashboard支持依赖
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-alibaba-sentinel', version: '0.9.0.RELEASE'
+    //使用nacos做datasource
+    compile group: 'com.alibaba.csp', name: 'sentinel-datasource-nacos', version: '1.6.3'
+    //文件型datasource依赖
+    compile group: 'com.alibaba.csp', name: 'sentinel-datasource-extension', version: '1.6.3'
+    //
+    compile group: 'com.alibaba.nacos', name: 'nacos-api', version: '1.1.3'
+
+    //other module dependency config
+    compile project(":common")
+}
+
+/*
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', '../common/src/main/java']
+        }
+    }
+}*/

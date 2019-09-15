@@ -1,0 +1,4 @@
+1.
+规则生成：dashboard-->nacos-->微服务，
+因 com.alibaba.csp.sentinel.dashboard.rule.nacos.NacosConfigUtil
+已经指定Nacos中规则的DataId生成模式，会导致同一应用的同一类型规则只能生成一个！

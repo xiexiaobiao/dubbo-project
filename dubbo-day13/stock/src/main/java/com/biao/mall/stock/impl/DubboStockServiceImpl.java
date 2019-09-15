@@ -62,13 +62,23 @@ public class DubboStockServiceImpl extends ServiceImpl<DubboStockDao, DubboStock
         String resourceName = "updateStockRPC";
         this.initWhiteRules(resourceName);
         //获取app来源
-        ContextUtil.enter(resourceName,"mall-business");
-        try(Entry entry = SphU.entry(resourceName)){
+        ContextUtil.enter(resourceName, "mall-business");
+        Entry entry = null;
+        try {
+            entry = SphU.entry(resourceName);
             if (Objects.equals(null, stockEntity)) {
                 return -1;
             }
             return dubboStockDao.updateById(stockEntity);
+        } catch (BlockException ex) {
+
+        } finally {
+            if (entry != null) {
+                entry.exit();
+            }
+            ContextUtil.exit();
         }
+        return -1;
     }
 
     /**
