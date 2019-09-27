@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.biao.mall.common.dao.DubboFinanceDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.biao.mall.common.entity.DubboFinanceEntity">
+        <id column="id" property="id" />
+        <result column="finance_id" property="financeId" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_modified" property="gmtModified" />
+        <result column="user_id" property="userId" />
+        <result column="balance" property="balance" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, finance_id, gmt_create, gmt_modified, user_id, balance
+    </sql>
+
+</mapper>
