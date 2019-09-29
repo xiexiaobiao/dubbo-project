@@ -1,0 +1,66 @@
+server:
+  port: 8087
+spring:
+  application:
+    name:
+  #rabbitMQ的配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: mall
+    password: mall
+  #连接池配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dubbo_db?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # 配置测试查询语句, #Oracle需要打开注释
+      validationQuery: SELECT 1 FROM DUAL
+      # 初始化大小，最小，最大
+      initialSize: 10
+      minIdle: 10
+      maxActive: 200
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 180000
+      testOnBorrow: false
+      testWhileIdle: true
+      removeAbandoned: true
+      removeAbandonedTimeout: 1800
+      logAbandoned: true
+      # 打开PSCache，并且指定每个连接上PSCache的大小
+      poolPreparedStatements: true
+      maxOpenPreparedStatements: 100
+      # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      filters: stat,wall
+      # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+#### producer
+rocketmq:
+  producer:
+    #该应用是否启用生产者
+    isOnOff: on
+    #发送同一类消息的设置为同一个group，保证唯一,默认不需要设置，rocketmq会使用ip@pid(pid代表jvm名字)作为唯一标示
+    groupName: mall
+    #mq的nameserver地址
+    namesrvAddr: 192.168.1.204:9876
+    #消息最大长度 默认1024*4(4M)
+    maxMessageSize: 4096
+    sendMsgTimeout: 3000
+    #发送消息失败重试次数，默认2
+    retryTimesWhenSendFailed: 2
+    #### consumer
+  consumer:
+    isOnOff: on
+    groupName: mall
+    namesrvAddr: 192.168.1.204:9876
+    #该消费者订阅的主题和tags("*"号表示订阅该主题下所有的tags),格式：topic~tag1||tag2||tag3;topic2~*;
+    topics: MallTopic~*
+    consumeThreadMin: 20
+    consumeThreadMax: 64
+    #设置一次消费消息的条数，默认为1条
+    consumeMessageBatchMaxSize: 1

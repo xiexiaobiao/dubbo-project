@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.5.5', ext: 'pom'
+    compile group: 'org.apache.curator', name: 'curator-framework', version: '4.2.0'
+
+    //用于sentinel dashboard发现
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-alibaba-sentinel', version: '0.9.0.RELEASE'
+    //使用nacos做datasource
+    compile group: 'com.alibaba.csp', name: 'sentinel-datasource-nacos', version: '1.6.3'
+    //
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-context', version: '2.1.3.RELEASE'
+    //
+    compile group: 'com.alibaba.nacos', name: 'nacos-api', version: '1.1.3'
+    // quartz
+    compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.1'
+
+    //other module dependency config
+    compile project(":common")
+}
