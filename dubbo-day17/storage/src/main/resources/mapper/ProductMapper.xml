@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.biao.mall.storage.dao.ProductDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.biao.mall.storage.entity.ProductEntity">
+        <id column="id" property="id" />
+        <result column="commodity_code" property="commodityCode" />
+        <result column="price" property="price" />
+        <result column="stock" property="stock" />
+        <result column="last_update_time" property="lastUpdateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, commodity_code, price, stock, last_update_time
+    </sql>
+
+    <update id="decreaseStorage">
+        update product set stock = stock-#{count} where id = #{commodityCode}
+    </update>
+
+</mapper>
