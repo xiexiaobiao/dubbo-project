@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.biao.mall.order.dao.OrdersDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.biao.mall.order.entity.OrdersEntity">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="product_id" property="productId" />
+        <result column="pay_amount" property="payAmount" />
+        <result column="status" property="status" />
+        <result column="add_time" property="addTime" />
+        <result column="last_update_time" property="lastUpdateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, product_id, pay_amount, status, add_time, last_update_time
+    </sql>
+
+    <!--创建订单-->
+    <insert id="createOrder" keyProperty="id" useGeneratedKeys="true"
+            parameterType="com.biao.mall.order.entity.OrdersEntity">
+      insert into orders values(null, #{order.userId},#{order.productId},#{order.payAmount},null ,null ,null )
+    </insert>
+
+</mapper>
