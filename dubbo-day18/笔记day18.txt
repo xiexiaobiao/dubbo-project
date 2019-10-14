@@ -1,9 +1,9 @@
-
+﻿
 本项目为TCC的本地模式代码，仅改造了storage模块，启动运行的模块只是storage即可。
 
 1.SeataServer，即TC的文件 \seata\bin\sessionStore\root.data会持久化事务执行状态，经测试，如果提交阶段失败，
  即将storage/src/main/java/com/biao/mall/storage/impl/ProductServiceImpl.java中commit空提交改为返回false，
  重启TC或应用，会自动继续尝试commit提交，再重启应用，RM注册失败，重启SeataServer，也会自动继续commit，说明有进行文件形式的
- 持久化机制！要恢复正常，删掉root.data即可！
+ 持久化机制！为什么会如此？因为，对于二阶段式提交，只要try成功，commit是必须要成功的，这个流程本来就是一个事务，故TC来保证此原则的执行。要恢复正常，删掉root.data即可！
 
 2.TCC本地模式：即分支事务是本地调用，非RPC调用。
