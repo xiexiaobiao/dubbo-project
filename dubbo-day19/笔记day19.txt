@@ -1,0 +1,6 @@
+
+本项目为TCC的RPC模式代码。
+
+1.dubbo服务使用TCC，
+2.org.apache.dubbo:dubbo:2.7.3中，3.24，3.25，3.26都会报警告。
+org.javassist:javassist:3.20.0-GA -> 3.23.1-GA

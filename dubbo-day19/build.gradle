@@ -1,0 +1,98 @@
+//gradle.properties放全局统一的group和version配置
+
+//全部模块的统一配置
+allprojects {
+    apply plugin: 'java'
+    sourceCompatibility = 1.8
+}
+
+//所有子模块的共同配置
+subprojects {
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+        }
+    }
+    //全局依赖
+    dependencies {
+        //lombok
+        compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+        //
+//        compile group: 'com.alibaba', name: 'druid', version: '1.1.20'
+        compile group: 'com.alibaba', name: 'druid-spring-boot-starter', version: '1.1.20'
+        // 注意这里是org.apache.dubbo，不是com.alibaba.dubbo
+        compile (group: 'org.apache.dubbo', name: 'dubbo', version: '2.7.3'){
+            exclude group: 'org.yaml', module: 'snakeyaml'
+        }
+        //
+        compile group: 'com.baomidou', name: 'mybatis-plus-generator', version: '3.2.0'
+        compile group: 'com.baomidou', name: 'mybatis-plus', version: '3.2.0'
+        compile group: 'com.baomidou', name: 'mybatis-plus-boot-starter', version: '3.2.0'
+
+        // to use the StringUtils
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+        // LoggerFactory
+        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.28'
+        //>>>>>>>>>> SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+//        compile (group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.28'){
+//            exclude group: 'org.slf4j', module: 'slf4j-api'
+//        }
+        //
+        testCompile (group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'){
+//           exclude group: 'org.slf4j', module: 'slf4j-api'
+        }
+        //
+        compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+        //>>>>> Caused by: java.lang.ClassNotFoundException: org.apache.velocity.context.Context
+        compile group: 'org.apache.velocity', name: 'velocity-engine-core', version: '2.1'
+        //spring-boot-starter
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.1.9.RELEASE'
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.9.RELEASE'
+        // >>>> java.lang.NoSuchMethodError: org.yaml.snakeyaml.nodes.ScalarNode.getScalarStyle()，
+        // 解析yml文件
+        compile group: 'org.yaml', name: 'snakeyaml', version: '1.25'
+        // seata-all
+        compile group: 'io.seata', name: 'seata-all', version: '0.8.1'
+        // https://mvnrepository.com/artifact/org.apache.dubbo/dubbo-registry-nacos
+        compile group: 'org.apache.dubbo', name: 'dubbo-registry-nacos', version: '2.7.3'
+        // https://mvnrepository.com/artifact/org.springframework/spring-context-support
+        compile group: 'org.springframework', name: 'spring-context-support', version: '5.2.0.RELEASE'
+        // https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-api
+        compile group: 'com.alibaba.nacos', name: 'nacos-api', version: '1.1.3'
+        // https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-client
+        compile group: 'com.alibaba.nacos', name: 'nacos-client', version: '1.1.3'
+        // org.apache.dubbo:dubbo:2.7.3中的间接依赖，3.24，3.25，3.26都会报警告
+        compile group: 'org.javassist', name: 'javassist', version: '3.23.1-GA'
+        // https://mvnrepository.com/artifact/org.springframework/spring-orm
+        compile group: 'org.springframework', name: 'spring-orm', version: '5.2.0.RELEASE'
+
+
+
+
+    }
+
+    //if code include the chinese content
+    //>>>>>>>>>>>> unmappable character for encoding GBK,
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+   //全局配置
+    configurations.all() {
+//        transitive = false
+//        Configuration configuration ->
+//            //当遇到版本冲突时直接构建失败
+//            configuration.resolutionStrategy.failOnVersionConflict()
+    }
+
+/*    sourceSets {
+        main{
+            java {
+                srcDirs "src/main/java"   // 指定源码目录
+//                exclude("org.slf4j.impl.StaticLoggerBinder.class")
+            }
+            resources {
+                srcDir 'src/main/resources' //资源目录
+            }
+        }
+    }*/
+}

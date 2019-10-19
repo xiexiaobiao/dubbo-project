@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+}
+
+//gradle2.1 以上添加插件语法
+/*plugins {
+    id 'java'
+}*/
+
+//gradle2.1 以下添加插件语法
+//apply plugin: "com.jxpanda.generator"
+
+
+//group 'com.biao.mall'
+//version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+
+    //other module dependency config
+    compile project(":common")
+}
+group 'com.biao.mall'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

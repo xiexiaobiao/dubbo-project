@@ -1,0 +1,23 @@
+/*plugins {
+    id 'java'
+}
+
+group 'com.biao.mall'
+version '1.0-SNAPSHOT'*/
+
+sourceCompatibility = 1.8
+
+//repositories {
+//    mavenCentral()
+//}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/redis.clients/jedis
+    compile group: 'redis.clients', name: 'jedis', version: '3.1.0'
+    // https://mvnrepository.com/artifact/io.lettuce/lettuce-core
+    compile group: 'io.lettuce', name: 'lettuce-core', version: '5.2.0.RELEASE'
+
+
+    compile project(":common")
+}
