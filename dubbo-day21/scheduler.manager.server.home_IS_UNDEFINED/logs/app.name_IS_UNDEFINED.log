@@ -1,0 +1,170 @@
+2019-11-02 09:28:10,751 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 1360 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:28:10,757 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:28:11,931 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:28:11,941 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:28:11,941 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:28:11,943 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:28:11,944 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:28:11,947 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:28:11,951 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:28:12,044 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:28:12,044 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1179 ms
+2019-11-02 09:28:12,266 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:28:12,492 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:28:12,501 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.665 seconds (JVM running for 3.126)
+2019-11-02 09:28:17,750 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-02 09:28:17,751 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] - Initializing Servlet 'dispatcherServlet'
+2019-11-02 09:28:17,763 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] - Completed initialization in 11 ms
+2019-11-02 09:28:18,792 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658098792
+2019-11-02 09:28:19,796 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658099796
+2019-11-02 09:28:20,796 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658100796
+2019-11-02 09:28:21,797 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658101797
+2019-11-02 09:28:22,798 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658102798
+2019-11-02 09:28:23,800 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658103800
+2019-11-02 09:28:24,801 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658104801
+2019-11-02 09:28:25,803 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658105803
+2019-11-02 09:28:26,804 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658106804
+2019-11-02 09:28:27,804 [http-nio-8080-exec-3] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from app 1572658107804
+2019-11-02 09:29:05,405 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 9808 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:29:05,413 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:29:06,585 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:29:06,594 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:29:06,594 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:29:06,596 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:29:06,596 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:29:06,599 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:29:06,602 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:29:06,680 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:29:06,681 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1181 ms
+2019-11-02 09:29:06,848 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:29:07,021 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:29:07,025 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.485 seconds (JVM running for 2.948)
+2019-11-02 09:29:14,424 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-02 09:29:14,426 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] - Initializing Servlet 'dispatcherServlet'
+2019-11-02 09:29:14,436 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] - Completed initialization in 9 ms
+2019-11-02 09:29:43,159 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 10384 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:29:43,165 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:29:44,415 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:29:44,425 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:29:44,426 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:29:44,427 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:29:44,427 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:29:44,430 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:29:44,433 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:29:44,514 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:29:44,515 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1225 ms
+2019-11-02 09:29:44,715 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:29:44,896 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:29:44,901 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.817 seconds (JVM running for 3.33)
+2019-11-02 09:30:03,272 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-02 09:30:03,273 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] - Initializing Servlet 'dispatcherServlet'
+2019-11-02 09:30:03,283 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] - Completed initialization in 9 ms
+2019-11-02 09:30:28,778 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 5484 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:30:28,785 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:30:30,033 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:30:30,043 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:30:30,044 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:30:30,045 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:30:30,045 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:30:30,048 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:30:30,051 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:30:30,132 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:30:30,133 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1254 ms
+2019-11-02 09:30:30,331 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:30:30,504 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:30:30,508 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.722 seconds (JVM running for 3.198)
+2019-11-02 09:30:35,178 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-02 09:30:35,180 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] - Initializing Servlet 'dispatcherServlet'
+2019-11-02 09:30:35,192 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] - Completed initialization in 11 ms
+2019-11-02 09:30:36,216 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658236216
+2019-11-02 09:30:37,222 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658237222
+2019-11-02 09:30:38,223 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658238223
+2019-11-02 09:30:39,224 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658239224
+2019-11-02 09:30:40,225 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658240225
+2019-11-02 09:30:41,227 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658241227
+2019-11-02 09:30:42,228 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658242228
+2019-11-02 09:30:43,229 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658243229
+2019-11-02 09:30:44,231 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658244231
+2019-11-02 09:30:45,232 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app 1572658245232
+2019-11-02 09:31:03,148 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 6448 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:31:03,154 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:31:04,304 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:31:04,314 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:31:04,315 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:31:04,316 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:31:04,317 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:31:04,319 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:31:04,322 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:31:04,401 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:31:04,401 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1162 ms
+2019-11-02 09:31:04,586 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:31:04,757 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:31:04,762 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.47 seconds (JVM running for 2.999)
+2019-11-02 09:31:08,772 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 468 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:31:08,779 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:31:10,203 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:31:10,215 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:31:10,215 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:31:10,217 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:31:10,217 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:31:10,220 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:31:10,223 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:31:10,299 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:31:10,300 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1418 ms
+2019-11-02 09:31:10,481 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:31:10,659 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:31:10,664 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.897 seconds (JVM running for 3.457)
+2019-11-02 09:31:14,135 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 1372 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:31:14,143 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:31:15,324 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:31:15,335 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:31:15,335 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:31:15,336 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:31:15,337 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:31:15,340 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:31:15,343 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:31:15,418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:31:15,418 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1179 ms
+2019-11-02 09:31:15,633 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:31:15,801 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:31:15,805 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.548 seconds (JVM running for 2.995)
+2019-11-02 09:31:21,993 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-02 09:31:21,995 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] - Initializing Servlet 'dispatcherServlet'
+2019-11-02 09:31:22,007 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] - Completed initialization in 12 ms
+2019-11-02 09:31:23,039 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658283039
+2019-11-02 09:31:24,044 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658284044
+2019-11-02 09:31:25,046 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658285046
+2019-11-02 09:31:26,047 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658286047
+2019-11-02 09:31:27,049 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658287049
+2019-11-02 09:31:28,051 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658288051
+2019-11-02 09:31:29,053 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658289053
+2019-11-02 09:31:30,054 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658290054
+2019-11-02 09:31:31,054 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658291054
+2019-11-02 09:31:32,056 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658292056
+2019-11-02 09:31:48,157 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 55] - Starting ApplicationMain on DESKTOP-574PS11 with PID 13420 (D:\elkstudy\out\production\classes started by KOOL in D:\elkstudy)
+2019-11-02 09:31:48,163 [main] INFO  com.biao.mall.ApplicationMain [SpringApplication.java : 651] - No active profile set, falling back to default profiles: default
+2019-11-02 09:31:49,361 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 92] - Tomcat initialized with port(s): 8080 (http)
+2019-11-02 09:31:49,371 [main] INFO  o.a.catalina.core.StandardService [DirectJDKLog.java : 173] - Starting service [Tomcat]
+2019-11-02 09:31:49,372 [main] INFO  o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-02 09:31:49,373 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-02 09:31:49,374 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-02 09:31:49,376 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-02 09:31:49,380 [main] INFO  o.a.c.core.AprLifecycleListener [DirectJDKLog.java : 173] - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-02 09:31:49,461 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring embedded WebApplicationContext
+2019-11-02 09:31:49,461 [main] INFO  o.s.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] - Root WebApplicationContext: initialization completed in 1219 ms
+2019-11-02 09:31:49,629 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-02 09:31:49,806 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 204] - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-02 09:31:49,811 [main] INFO  com.biao.mall.ApplicationMain [StartupInfoLogger.java : 61] - Started ApplicationMain in 2.524 seconds (JVM running for 2.988)
+2019-11-02 09:31:53,476 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-02 09:31:53,478 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] - Initializing Servlet 'dispatcherServlet'
+2019-11-02 09:31:53,488 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] - Completed initialization in 9 ms
+2019-11-02 09:31:54,515 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658314515
+2019-11-02 09:31:55,524 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658315524
+2019-11-02 09:31:56,525 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658316525
+2019-11-02 09:31:57,527 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658317527
+2019-11-02 09:31:58,528 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658318528
+2019-11-02 09:31:59,530 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658319530
+2019-11-02 09:32:00,531 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658320531
+2019-11-02 09:32:01,532 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658321532
+2019-11-02 09:32:02,534 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658322534
+2019-11-02 09:32:03,535 [http-nio-8080-exec-1] INFO  com.biao.mall.ApplicationMain [ApplicationMain.java : 34] - log from ELK app time: 1572658323535

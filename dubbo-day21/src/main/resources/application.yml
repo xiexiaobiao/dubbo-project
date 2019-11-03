@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ELK Application
+logging:
+  config:
+    path: ./logs
