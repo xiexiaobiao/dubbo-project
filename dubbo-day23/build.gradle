@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.biao.kafka'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.1.RELEASE'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.1.RELEASE'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '2.3.1'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams
+    compile group: 'org.apache.kafka', name: 'kafka-streams', version: '2.3.1'
+    // https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka
+    compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.3.3.RELEASE'
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
+    // https://mvnrepository.com/artifact/com.alibaba/fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.62'
+}
+
+//if code include the chinese content
+//error log: >>>>> unmappable character for encoding GBK,
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
