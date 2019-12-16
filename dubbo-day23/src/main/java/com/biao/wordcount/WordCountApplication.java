@@ -1,4 +1,4 @@
-package com.biao.wordcount;
+﻿package com.biao.wordcount;
 
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.utils.Bytes;
@@ -33,7 +33,7 @@ public class WordCountApplication {
         props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG,Serdes.String().getClass());
 
-        // kafka流计算是一个各broker连接的拓扑结构，以下使用builder来构造拓扑
+        // kafka流计算是一个各node连接的拓扑结构，以下使用builder来构造拓扑
         final StreamsBuilder builder = new StreamsBuilder();
         // 构建一个KStream流对象，元素是<String, String>类型的key-value对值，topic:streams-plaintext-input
         KStream<String, String> source = builder.stream("streams-plaintext-input");
