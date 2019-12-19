@@ -25,6 +25,4 @@ public class KafkaConfig {
         properties.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,"192.168.1.221:9092,192.168.1.222:9092,192.168.1.223:9092");
         return AdminClient.create(properties);
     }
-
-
 }

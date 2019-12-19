@@ -7,7 +7,7 @@ import org.apache.flink.streaming.api.functions.sink.RichSinkFunction;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-// 也可使用定价接口 SinkFunction，RichSinkFunction也实现了SinkFunction
+// 也可使用顶级接口 SinkFunction，RichSinkFunction也实现了SinkFunction
 public class Sink2Mysql extends RichSinkFunction<Vehicle> {
     private PreparedStatement preparedStatement;
     private DruidDataSource dataSource;
@@ -21,7 +21,7 @@ public class Sink2Mysql extends RichSinkFunction<Vehicle> {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUsername("root");
         dataSource.setPassword("123456");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1/data_center?characterEncoding=UTF-8&serverTimezone=UTC");
+        dataSource.setUrl("jdbc:mysql://192.168.1.107:3306/data_center?characterEncoding=UTF-8&serverTimezone=UTC");
         connection = dataSource.getConnection();
         preparedStatement = connection.prepareStatement("insert into vehicle(type, plate, color, weight) values(?, ?, ?, ?);");
 

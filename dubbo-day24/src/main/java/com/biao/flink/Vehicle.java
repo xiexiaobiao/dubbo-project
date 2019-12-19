@@ -17,10 +17,8 @@ public class Vehicle {
     private Integer plate;
     // yellow/red/white/black
     private String color;
-    // 车重: 1.5t/2.5t
+    // 车重: 1.5-2.5
     private Float weight;
-
-
 
     public Vehicle(String type, Integer plate, String color,Float weight) {
         this.type = type;
@@ -74,12 +72,4 @@ public class Vehicle {
         this.weight = weight;
     }
 
-    public boolean isEndOfSequence() {
-        return false;
-    }
-
-    public long getSequenceTimestamp() {
-        // UTC的millisecond做eventTime
-        return LocalDateTime.now().toEpochSecond(ZoneOffset.UTC)*1000;
-    }
 }
