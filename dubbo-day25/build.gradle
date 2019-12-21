@@ -1,0 +1,136 @@
+//gradle BUILD config, gradle-plugin is necessary
+buildscript {
+    ext {
+        springBootVersion = '2.2.1.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+        jcenter() // this applies only to the Gradle 'Shadow' plugin
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.0.0'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'war'
+    id 'application'
+    // shadow plugin to produce fat JARs (all-in-one JAR).
+    // notice the version, may error :shadowJar' No value has been specified for property 'mainClassName'.
+    id 'com.github.johnrengelman.shadow' version '5.0.0'
+    id 'org.springframework.boot' version '2.2.1.RELEASE'
+}
+
+group 'com.biao'
+version '1.0-SNAPSHOT'
+mainClassName = 'com.biao.flink.FlinkMain'
+description = """Flink by Biao"""
+sourceCompatibility = 1.8
+
+//define common reference
+ext {
+    javaVersion = '11'
+    flinkVersion = '1.9.0'
+    scalaBinaryVersion = '2.12'
+    slf4jVersion = '1.7.7'
+    log4jVersion = '1.2.17'
+}
+
+sourceCompatibility = javaVersion
+targetCompatibility = javaVersion
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+//applicationDefaultJvmArgs = ["-Dlog4j.configuration=log4j.properties"]
+
+//task wrapper(type: Wrapper) {
+//    gradleVersion = '6.0.1'
+//}
+
+repositories {
+    mavenCentral()
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+}
+
+// NOTE: We cannot use "compileOnly" or "shadow" configurations since then we could not run code
+// in the IDE or with "gradle run". We also cannot exclude transitive dependencies from the
+// shadowJar yet (see https://github.com/johnrengelman/shadow/issues/159).
+// -> Explicitly define the // libraries we want to be included in the "flinkShadowJar" configuration!
+configurations {
+    flinkShadowJar // dependencies which go into the shadowJar
+
+    // always exclude these (also from transitive dependencies) since they are provided by Flink
+    flinkShadowJar.exclude group: 'org.apache.flink', module: 'force-shading'
+    flinkShadowJar.exclude group: 'com.google.code.findbugs', module: 'jsr305'
+    flinkShadowJar.exclude group: 'org.slf4j'
+    flinkShadowJar.exclude group: 'log4j'
+}
+// declare the dependencies for your production and test code
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-core
+    compile group: 'org.apache.flink', name: 'flink-core', version: '1.9.1'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-java
+    providedCompile group: 'org.apache.flink', name: 'flink-streaming-java_2.12', version: '1.9.1'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-clients
+    compile group: 'org.apache.flink', name: 'flink-clients_2.12', version: '1.9.1'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-java
+    compile group: 'org.apache.flink', name: 'flink-java', version: '1.9.1'
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
+    // https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka
+    compile group: 'org.apache.flink', name: 'flink-connector-kafka_2.12', version: '1.9.1'
+    // https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams
+    compile group: 'org.apache.kafka', name: 'kafka-streams', version: '2.3.1'
+    // https://mvnrepository.com/artifact/com.alibaba/fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.62'
+    // https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka
+    compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.3.3.RELEASE'
+    //
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.1.RELEASE'
+    // Dependencies that should be part of the shadow jar, e.g.
+    // connectors. These must be in the flinkShadowJar configuration!
+    // compile是springboot打包fatJar用的，flinkShadowJar是shadow打包fatJar用的
+    // --------------------------------------------------------------
+    flinkShadowJar group: 'org.apache.flink', name: 'flink-connector-kafka_2.12', version: '1.9.1'
+    flinkShadowJar group: 'org.apache.flink', name: 'flink-core', version: '1.9.1'
+    flinkShadowJar group: 'org.apache.flink', name: 'flink-streaming-java_2.12', version: '1.9.1'
+    flinkShadowJar group: 'org.apache.flink', name: 'flink-clients_2.12', version: '1.9.1'
+    flinkShadowJar group: 'org.apache.flink', name: 'flink-java', version: '1.9.1'
+    flinkShadowJar group: 'org.apache.flink', name: 'flink-connector-kafka_2.12', version: '1.9.1'
+
+    // https://mvnrepository.com/artifact/com.alibaba/druid
+    compile group: 'com.alibaba', name: 'druid', version: '1.1.21'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.18'
+
+}
+
+// make compileOnly dependencies available for tests:
+sourceSets {
+    main.compileClasspath += configurations.flinkShadowJar
+    main.runtimeClasspath += configurations.flinkShadowJar
+
+    test.compileClasspath += configurations.flinkShadowJar
+    test.runtimeClasspath += configurations.flinkShadowJar
+
+    javadoc.classpath += configurations.flinkShadowJar
+}
+
+run.classpath = sourceSets.main.runtimeClasspath
+
+// 必须有，指定jar内main函数入口
+jar {
+    manifest {
+        attributes 'Built-By': System.getProperty('user.name'),
+                'Build-Jdk': System.getProperty('java.version')
+    }
+}
+
+shadowJar {
+    configurations = [project.configurations.flinkShadowJar]
+}
