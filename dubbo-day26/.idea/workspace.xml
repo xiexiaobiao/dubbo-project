@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d23a6c0f-458c-4291-83d0-f82c07dd4c49" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rocketMQ" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rocketMQ" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="rocketMQ" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\maven-repos" />
+        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectId" id="1Vb3K62bgiKKQEuhluJSrQe1CDt" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="external.system.task.project.file.to.start" value="C:/gradle-6.0.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/biao/rmq/simple/Producer.java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rocketMQ\src\main\java\com\biao\rmq\simple" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.rocketMQ [clean]">
+    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.rmq.simple.Consumer" />
+      <module name="rocketMQ.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.rmq.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.rmq.Consumer" />
+      <module name="rocketMQ.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.rmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.rmq.simple.Producer" />
+      <module name="rocketMQ.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.rmq.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.rmq.Producer" />
+      <module name="rocketMQ.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.rmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="C:/gradle-6.0.1" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="rocketMQ [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Consumer (1)" />
+        <item itemvalue="Application.Producer (1)" />
+        <item itemvalue="Gradle.rocketMQ [clean]" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Consumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d23a6c0f-458c-4291-83d0-f82c07dd4c49" name="Default Changelist" comment="" />
+      <created>1577507899635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577507899635</updated>
+      <workItem from="1577507901453" duration="16990000" />
+      <workItem from="1577580849720" duration="22226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1577507949942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1577507949942" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1577666162375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577666162375" />
+    <state width="1493" height="73" key="GridCell.Tab.0.bottom" timestamp="1577687758604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="73" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577687758604" />
+    <state width="1493" height="73" key="GridCell.Tab.0.center" timestamp="1577687758604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="73" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577687758604" />
+    <state width="1493" height="73" key="GridCell.Tab.0.left" timestamp="1577687758604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="73" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577687758604" />
+    <state width="1493" height="73" key="GridCell.Tab.0.right" timestamp="1577687758604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="73" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577687758604" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1577545934965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577545934965" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1577545934965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577545934965" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1577545934964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577545934964" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1577545934965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577545934965" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1577666164854">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577666164854" />
+  </component>
+</project>

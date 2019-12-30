@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.biao.rocketmq'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    // mavenCentral()
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client
+    compile group: 'org.apache.rocketmq', name: 'rocketmq-client', version: '4.6.0'
+    // https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-remoting
+    compile group: 'org.apache.rocketmq', name: 'rocketmq-remoting', version: '4.6.0'
+    // https://mvnrepository.com/artifact/io.netty/netty-all
+    // compile group: 'io.netty', name: 'netty-all', version: '4.1.43.Final'
+
+}
