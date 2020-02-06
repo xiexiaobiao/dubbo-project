@@ -20,7 +20,7 @@ dependencies {
 
     //>>>>org.apache.zookeeper.KeeperException$UnimplementedException
     // Curator 2.x.x - compatible with both ZooKeeper 3.4.x and ZooKeeper 3.5.x
-    //urator 3.x.x - compatible only with ZooKeeper 3.5.x and includes support for new features such as dynamic reconfiguration, etc.
+    //curator 3.x.x - compatible only with ZooKeeper 3.5.x and includes support for new features such as dynamic reconfiguration, etc.
     compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.12', ext: 'pom'
     compile group: 'org.apache.curator', name: 'curator-framework', version: '2.13.0'
 

@@ -2,40 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40fc57b3-a8fa-4749-aa29-59e6db02a5b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day01/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/common/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/common/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/common/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/classes/java/main/com/example/consumer/ConsumerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/classes/java/main/com/example/consumer/conf/ConsumerConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/classes/java/main/com/example/consumer/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/consumer/build/resources/main/spring/consumer.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/provider/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/provider/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/provider/build/classes/java/main/com/example/provider/ProviderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/provider/build/classes/java/main/com/example/provider/config/ProviderConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/provider/build/classes/java/main/com/example/provider/impl/GreetingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dubbo-day01/provider/build/resources/main/spring/dubbo-provider.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/api/GreetingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/common/constant/AnnotationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/provider/ProviderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/provider/config/NacosConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/provider/config/ProviderConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/provider/controller/ConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/classes/java/main/com/example/provider/impl/GreetingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/build/resources/main/spring/dubbo-provider.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dubbo-day02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-day08/.idea/dubbo-day08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-day08/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-day10/.idea/dubbo-day10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-day10/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day08/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day08/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day08/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day08/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day08/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day08/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day08/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-day10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-day10/.idea/misc.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,11 +94,18 @@
   </component>
   <component name="ProjectId" id="1Olvh08VF82oU1I3i4yLFQJgMkm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -130,18 +118,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Gradle.dubbo-day02 [clean]">
     <configuration name="dubbo-day02 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -162,53 +138,6 @@
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer_main" />
@@ -237,6 +166,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -255,6 +196,7 @@
       <workItem from="1566101971231" duration="5406000" />
       <workItem from="1566224461918" duration="34000" />
       <workItem from="1566912168515" duration="9000" />
+      <workItem from="1579239763285" duration="9856000" />
     </task>
     <servers />
   </component>
@@ -273,5 +215,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="471" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579264802364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="471" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1579264802364" />
+    <state x="363" y="4" key="CommitChangelistDialog2" timestamp="1579261528263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="363" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579261528263" />
   </component>
 </project>
