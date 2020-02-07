@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.biao.mall.seata-tcc.test" target="1.8" />
+      <module name="seata-tcc.account.main" target="1.8" />
+      <module name="seata-tcc.account.test" target="1.8" />
+      <module name="seata-tcc.business.main" target="1.8" />
+      <module name="seata-tcc.business.test" target="1.8" />
+      <module name="seata-tcc.common.main" target="1.8" />
+      <module name="seata-tcc.common.test" target="1.8" />
+      <module name="seata-tcc.main" target="1.8" />
+      <module name="seata-tcc.order.main" target="1.8" />
+      <module name="seata-tcc.order.test" target="1.8" />
+      <module name="seata-tcc.storage.main" target="1.8" />
+      <module name="seata-tcc.storage.test" target="1.8" />
+      <module name="seata-tcc.test" target="1.8" />
+      <module name="seata-tcc.test.main" target="1.8" />
+      <module name="seata-tcc.test.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

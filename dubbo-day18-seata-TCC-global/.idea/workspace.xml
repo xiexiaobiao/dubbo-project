@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8345311c-88b8-4c00-8be6-a70b31987b2a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/storage">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="seata-tcc-local" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="seata-tcc-local" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="seata-tcc-local" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="seata-tcc-local" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\maven-repos" />
+        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RrDwE03LadQ9TnxjJ8B5p3tGdi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01JavaStudy/dubbo-class/dubbo-day18-seata-TCC" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01JavaStudy\seata-study\seata-tcc-local" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.biao.mall.business" />
+      <recent name="com.biao.mall.common.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\01JavaStudy\seata-study\seata-tcc\business\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8084/buy" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;userId&quot;:&quot;1&quot;,   &quot;commodityCode&quot;:&quot;1&quot;,   &quot;name&quot;:&quot;book&quot;,   &quot;count&quot;:1,   &quot;amount&quot;:12.56 }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8084/buy" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;userId&quot;:&quot;1&quot;,&#10;  &quot;commodityCode&quot;:&quot;1&quot;,&#10;  &quot;name&quot;:&quot;book&quot;,&#10;  &quot;count&quot;:1,&#10;  &quot;amount&quot;:12.56&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.dubbo-day18-seata-TCC [clean]">
+    <configuration name="dubbo-day18-seata-TCC [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_8#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_8.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_9#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_9.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="seata-tcc.common" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="seata-tcc.common" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-tcc-local.account.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.account.AccountApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-tcc-local.business.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.mall.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.business.BusinessApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-tcc-local.order.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.mall.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-tcc-local.order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.order.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-tcc-local.storage.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.storage.StorageApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.dubbo-day18-seata-TCC [clean]" />
+        <item itemvalue="HTTP Request.rest-api_9#1" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="HTTP Request.rest-api_8#1" />
+        <item itemvalue="Spring Boot.OrderApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8345311c-88b8-4c00-8be6-a70b31987b2a" name="Default Changelist" comment="" />
+      <created>1570416557841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570416557841</updated>
+      <workItem from="1570416561740" duration="296000" />
+      <workItem from="1570417008004" duration="190000" />
+      <workItem from="1570417242776" duration="619000" />
+      <workItem from="1570417869951" duration="13512000" />
+      <workItem from="1570445426108" duration="8108000" />
+      <workItem from="1570531414731" duration="13876000" />
+      <workItem from="1570617259567" duration="560000" />
+      <workItem from="1570715804712" duration="5497000" />
+      <workItem from="1570792225956" duration="8381000" />
+      <workItem from="1570877698650" duration="8601000" />
+      <workItem from="1570891642478" duration="180000" />
+      <workItem from="1570891896815" duration="622000" />
+      <workItem from="1571049347347" duration="8679000" />
+      <workItem from="1571060343833" duration="2227000" />
+      <workItem from="1581050428018" duration="5514000" />
+      <workItem from="1581061940369" duration="10979000" />
+      <workItem from="1581081223338" duration="60000" />
+      <workItem from="1581081298104" duration="497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="36" width="744" height="751" key="#AccountApplication" timestamp="1581050918425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="36" width="744" height="751" key="#AccountApplication/0.0.1536.824@0.0.1536.824" timestamp="1581050918425" />
+    <state x="403" y="0" width="744" height="824" key="#BusinessApplication" timestamp="1581060249582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#BusinessApplication/0.0.1536.824@0.0.1536.824" timestamp="1581060249582" />
+    <state x="403" y="0" width="744" height="824" key="#OrderApplication" timestamp="1581060227297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#OrderApplication/0.0.1536.824@0.0.1536.824" timestamp="1581060227297" />
+    <state x="403" y="0" width="744" height="824" key="#StorageApplication" timestamp="1581060202277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#StorageApplication/0.0.1536.824@0.0.1536.824" timestamp="1581060202277" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1581079972617">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581079972617" />
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581050458808">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1581050458808" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1581078373850">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581078373850" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1581081207773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1581081207773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1581081207773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1581081207773">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
+    <state width="1493" height="132" key="GridCell.Tab.1.bottom" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.1.center" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.1.left" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.1.right" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.2.bottom" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.2.center" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.2.left" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="132" key="GridCell.Tab.2.right" timestamp="1581081207753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1581050840275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581050840275" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order/src/main/java/com/biao/mall/order/impl/OrdersServiceImpl.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

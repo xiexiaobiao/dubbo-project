@@ -1,0 +1,242 @@
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T090326.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T090014.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T082306.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T081951.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T081927.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T081909.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T081533.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T080527.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T075745.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T061513.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T060657.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T060628.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T060031.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T055720.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+<> 2020-02-07T054343.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+<> 2020-02-07T054248.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+<> 2020-02-07T054047.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+<> 2020-02-07T050858.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+<> 2020-02-07T034321.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+<> 2020-02-07T033214.500.json
+
+###
+
+GET http://localhost:8080/buy
+Content-Type: application/json
+
+{
+  "userId":"1",
+  "commodityCode":"1",
+  "name":"book",
+  "count":1,
+  "amount":12.56
+}
+
+###
+
