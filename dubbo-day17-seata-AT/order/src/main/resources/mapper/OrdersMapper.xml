@@ -21,7 +21,7 @@
     <!--创建订单-->
     <insert id="createOrder" keyProperty="id" useGeneratedKeys="true"
             parameterType="com.biao.mall.order.entity.OrdersEntity">
-      insert into orders values(null, #{order.userId},#{order.productId},#{order.payAmount},null ,null ,null )
+      insert into orders values(null, #{order.userId},#{order.productId},#{order.payAmount},null ,#{order.addTime} ,null )
     </insert>
 
 </mapper>

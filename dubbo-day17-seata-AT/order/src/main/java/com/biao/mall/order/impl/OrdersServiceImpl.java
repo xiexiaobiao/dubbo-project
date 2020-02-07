@@ -14,6 +14,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 /**
@@ -45,6 +46,7 @@ public class OrdersServiceImpl extends ServiceImpl<OrdersDao, OrdersEntity> impl
         OrdersEntity  tOrder = new OrdersEntity ();
         BeanUtils.copyProperties(orderDTO,tOrder);
 //        tOrder.setCount(orderDTO.getOrderCount());
+        tOrder.setAddTime(LocalDateTime.now());
         tOrder.setUserId(Integer.valueOf(orderDTO.getUserId()));
         tOrder.setProductId(Integer.valueOf(orderDTO.getCommodityCode()));
         tOrder.setPayAmount(orderDTO.getOrderAmount());
