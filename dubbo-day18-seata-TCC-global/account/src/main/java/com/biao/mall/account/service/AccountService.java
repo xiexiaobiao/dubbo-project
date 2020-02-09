@@ -26,8 +26,8 @@ public interface AccountService extends IService<AccountEntity> {
     void testGlobalLock();
 
     /** TCC 模式 */
-    // @TwoPhaseBusinessAction(name = "accountAction",commitMethod = "commit",rollbackMethod = "rollback")
-    // boolean prepare(BusinessActionContext actionContext, @BusinessActionContextParameter(paramName = "accountDTO") AccountDTO accountDTO);
+//     @TwoPhaseBusinessAction(name = "accountAction",commitMethod = "commit",rollbackMethod = "rollback")
+//     boolean prepare(BusinessActionContext actionContext, @BusinessActionContextParameter(paramName = "accountDTO") AccountDTO accountDTO);
     boolean prepare(BusinessActionContext actionContext, AccountDTO accountDTO);
 
     boolean commit(BusinessActionContext actionContext);

@@ -22,8 +22,8 @@ public class ProductServiceImpl extends ServiceImpl<ProductDao, ProductEntity> i
 
     @Override
     public boolean prepare(BusinessActionContext actionContext, CommodityDTO commodityDTO) {
-        System.out.println("actionContext获取Xid prepare>>> "+actionContext.getXid());
-        System.out.println("actionContext获取TCC参数 prepare>>> "+actionContext.getActionContext("commodityDTO"));
+        System.out.println("actionContext 获取Xid prepare>>> "+actionContext.getXid());
+        System.out.println("actionContext 获取TCC参数 prepare>>> "+actionContext.getActionContext("commodityDTO"));
         int storage = baseMapper.decreaseStorage(commodityDTO.getCommodityCode(), commodityDTO.getCount());
         //测试rollback时打开
         /*int a = 1/0;
@@ -35,13 +35,15 @@ public class ProductServiceImpl extends ServiceImpl<ProductDao, ProductEntity> i
     }
 
     @Override
-    public boolean commit(BusinessActionContext actionContext) {
+    public boolean storageCommit(BusinessActionContext actionContext) {
+        // 因为提交逻辑在prepare里已经完成，这里的commit为空
         System.out.println("actionContext获取Xid commit>>> "+actionContext.getXid());
         return true;
     }
 
     @Override
-    public boolean rollback(BusinessActionContext actionContext) {
+    public boolean storageRollback(BusinessActionContext actionContext) {
+        // 回滚逻辑即将prepare里业务反向操作
         System.out.println("actionContext获取Xid rollback>>> "+actionContext.getXid());
         //必须注意actionContext.getActionContext返回的是Object,且不可使用以下语句直接强转！
         //CommodityDTO commodityDTO = (CommodityDTO) actionContext.getActionContext("commodityDTO");

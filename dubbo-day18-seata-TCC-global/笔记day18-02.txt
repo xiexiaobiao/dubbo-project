@@ -10,11 +10,26 @@ TCC的本地模式代码，仅改造了storage模块，启动运行的模块只�
 2. ProductService 上注解 @LocalTCC 即 TCC本地模式：即分支事务是本地调用，非RPC调用。
 
 
+// 以下为day18的第二个版本，修改于2020年2月7日， 实现了TCC全局模式，核心点即TCC的注解放在RPC的服务上，不是模块内的service上
 
-// 以下为day18的第二个版本，修改于2020年2月7日， 实现了TCC全局模式，
 注意依赖升级 nacos 1.1.3 --> 1.1.4
            seata-all 0.8.1 --> 1.0.0
            seata-server 为 1.0.0
 
-seata-server 在window JDk11下启动bat：
+seata-server 在window JDk11下启动bat注意：
 
+测试数据：
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+// 全局@Reference注解的bug：
+https://github.com/seata/seata/issues/2194
+在开启 GlobalTransactional 的服务中使用 Reference 引用了 TCC 服务，但是 TCC 服务一阶段方法中的 BusinessActionContext 始终为
+null，也始终收不到二阶段提交的消息。跟踪发现 wrapIfNecessary 遍历的 Bean 中并没有该服务。需要在 Configuration 中使用
+ReferenceBean 显式引用 dubbo 服务，然后在 GlobalTransactional 的方法中使用 Autowired 引入的 TCC 服务，才可以正常使用。
+
+结论：
+ TCC 目前只能适用 A-->B,C分支情形，对A-->B,C且B-->D的情形暂不可使用！
+ 本例中business-->storage，order可以，但business-->storage，order且order-->account,报错。

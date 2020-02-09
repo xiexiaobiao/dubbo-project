@@ -65,6 +65,8 @@ mybatis-plus:
 
 #=Dubbo config==
 dubbo:
+  consumer:
+    check: false
   application:
     id: seata-order-app
     name: seata-order-app

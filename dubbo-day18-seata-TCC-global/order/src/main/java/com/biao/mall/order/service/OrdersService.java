@@ -20,7 +20,7 @@ public interface OrdersService extends IService<OrdersEntity> {
     /**
      * 创建订单
      */
-    ObjectResponse<OrderDTO> createOrder(OrderDTO orderDTO);
+    //ObjectResponse<OrderDTO> createOrder(OrderDTO orderDTO);
 
     //@TwoPhaseBusinessAction(name = "orderAction",commitMethod = "commit",rollbackMethod = "rollback")
     //boolean prepare(BusinessActionContext actionContext, @BusinessActionContextParameter(paramName = "orderDTO") OrderDTO orderDTO);

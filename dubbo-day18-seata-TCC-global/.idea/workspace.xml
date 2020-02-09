@@ -26,16 +26,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="seata-tcc-local" type="f1a62948:ProjectNode" />
+                <item name="seata-tcc-global" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="seata-tcc-local" type="f1a62948:ProjectNode" />
+                <item name="seata-tcc-global" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="seata-tcc-local" type="f1a62948:ProjectNode" />
+                <item name="seata-tcc-global" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -94,18 +94,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\01JavaStudy\seata-study\seata-tcc-local" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\01JavaStudy\seata-study\seata-tcc\business\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.biao.mall.order.conf" />
       <recent name="com.biao.mall.business" />
       <recent name="com.biao.mall.common.exception" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\01JavaStudy\seata-study\seata-tcc\business\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01JavaStudy\seata-study\seata-tcc-local" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -166,10 +167,13 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="rest-api_8#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_8.http" runType="Run single request">
+    <configuration name="rest-api_11#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_11.http" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest-api_9#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_9.http" runType="Run single request">
+    <configuration name="rest-api_13#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_13.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_14#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_14.http" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
@@ -220,7 +224,7 @@
       </method>
     </configuration>
     <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="seata-tcc-local.account.main" />
+      <module name="seata-tcc-global.account.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.account.AccountApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -228,7 +232,7 @@
       </method>
     </configuration>
     <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="seata-tcc-local.business.main" />
+      <module name="seata-tcc-global.business.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.biao.mall.business.*" />
@@ -241,21 +245,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="seata-tcc-local.order.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.biao.mall.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.order.OrderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="seata-tcc-local.order.main" />
+      <module name="seata-tcc-global.order.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.order.OrderApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -263,7 +254,7 @@
       </method>
     </configuration>
     <configuration name="StorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="seata-tcc-local.storage.main" />
+      <module name="seata-tcc-global.storage.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.mall.storage.StorageApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -272,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.dubbo-day18-seata-TCC [clean]" />
-        <item itemvalue="HTTP Request.rest-api_9#1" />
+        <item itemvalue="HTTP Request.rest-api_14#1" />
         <item itemvalue="Spring Boot.BusinessApplication" />
-        <item itemvalue="HTTP Request.rest-api_8#1" />
-        <item itemvalue="Spring Boot.OrderApplication (1)" />
+        <item itemvalue="HTTP Request.rest-api_13#1" />
+        <item itemvalue="Gradle.dubbo-day18-seata-TCC [clean]" />
+        <item itemvalue="HTTP Request.rest-api_11#1" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +311,7 @@
       <workItem from="1581061940369" duration="10979000" />
       <workItem from="1581081223338" duration="60000" />
       <workItem from="1581081298104" duration="497000" />
+      <workItem from="1581128858287" duration="16003000" />
     </task>
     <servers />
   </component>
@@ -345,26 +337,26 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="403" y="36" width="744" height="751" key="#AccountApplication" timestamp="1581050918425">
+    <state x="403" y="36" width="744" height="751" key="#AccountApplication" timestamp="1581083306934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="403" y="36" width="744" height="751" key="#AccountApplication/0.0.1536.824@0.0.1536.824" timestamp="1581050918425" />
-    <state x="403" y="0" width="744" height="824" key="#BusinessApplication" timestamp="1581060249582">
+    <state x="403" y="36" width="744" height="751" key="#AccountApplication/0.0.1536.824@0.0.1536.824" timestamp="1581083306934" />
+    <state x="403" y="0" width="744" height="824" key="#BusinessApplication" timestamp="1581083382105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="403" y="0" width="744" height="824" key="#BusinessApplication/0.0.1536.824@0.0.1536.824" timestamp="1581060249582" />
-    <state x="403" y="0" width="744" height="824" key="#OrderApplication" timestamp="1581060227297">
+    <state x="403" y="0" width="744" height="824" key="#BusinessApplication/0.0.1536.824@0.0.1536.824" timestamp="1581083382105" />
+    <state x="403" y="0" width="744" height="824" key="#OrderApplication" timestamp="1581083329912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="403" y="0" width="744" height="824" key="#OrderApplication/0.0.1536.824@0.0.1536.824" timestamp="1581060227297" />
-    <state x="403" y="0" width="744" height="824" key="#StorageApplication" timestamp="1581060202277">
+    <state x="403" y="0" width="744" height="824" key="#OrderApplication/0.0.1536.824@0.0.1536.824" timestamp="1581083329912" />
+    <state x="403" y="0" width="744" height="824" key="#StorageApplication" timestamp="1581083358290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="403" y="0" width="744" height="824" key="#StorageApplication/0.0.1536.824@0.0.1536.824" timestamp="1581060202277" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1581079972617">
+    <state x="403" y="0" width="744" height="824" key="#StorageApplication/0.0.1536.824@0.0.1536.824" timestamp="1581083358290" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1581136232530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581079972617" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581136232530" />
     <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581050458808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -373,38 +365,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581078373850" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1581081207773">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1581215404468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1581081207773">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581215404468" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1581215404468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1581081207773">
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581215404468" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1581215404468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1581081207773">
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581215404468" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1581215404468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581081207773" />
-    <state width="1493" height="132" key="GridCell.Tab.1.bottom" timestamp="1581081207753">
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581215404468" />
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom" timestamp="1581215404458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="132" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
-    <state width="1493" height="132" key="GridCell.Tab.1.center" timestamp="1581081207753">
+    <state width="1493" height="236" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581215404458" />
+    <state width="1493" height="236" key="GridCell.Tab.1.center" timestamp="1581215404457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="132" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
-    <state width="1493" height="132" key="GridCell.Tab.1.left" timestamp="1581081207753">
+    <state width="1493" height="236" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581215404457" />
+    <state width="1493" height="236" key="GridCell.Tab.1.left" timestamp="1581215404457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="132" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
-    <state width="1493" height="132" key="GridCell.Tab.1.right" timestamp="1581081207753">
+    <state width="1493" height="236" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581215404457" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right" timestamp="1581215404458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="132" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
+    <state width="1493" height="236" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581215404458" />
     <state width="1493" height="132" key="GridCell.Tab.2.bottom" timestamp="1581081207753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -421,20 +413,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="132" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581081207753" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1581050840275">
+    <state x="393" y="30" key="SettingsEditor" timestamp="1581136188694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581050840275" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order/src/main/java/com/biao/mall/order/impl/OrdersServiceImpl.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="393" y="30" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581136188694" />
   </component>
 </project>

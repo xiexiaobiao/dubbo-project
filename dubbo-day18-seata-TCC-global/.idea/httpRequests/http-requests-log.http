@@ -3,6 +3,186 @@ Content-Type: application/json
 
 {   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
 
+<> 2020-02-09T102501.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-09T102135.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T054456.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T053633.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T051548.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T051407.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T043915.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T042442.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T124952.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T123531.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T122305.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T115255.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T114508.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T111933.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T104815.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T104619.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-08T104249.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T105927.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T105531.500.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
+<> 2020-02-07T095113.200.json
+
+###
+
+POST http://localhost:8084/buy
+Content-Type: application/json
+
+{   "userId":"1",   "commodityCode":"1",   "name":"book",   "count":1,   "amount":12.56 }
+
 <> 2020-02-07T090326.200.json
 
 ###

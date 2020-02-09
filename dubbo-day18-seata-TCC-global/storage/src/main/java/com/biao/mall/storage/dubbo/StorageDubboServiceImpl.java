@@ -24,14 +24,14 @@ public class StorageDubboServiceImpl implements StorageDubboService {
     @Autowired
     private ProductService  productService;
 
-    @Override
+    /*@Override
     public ObjectResponse decreaseStorage(CommodityDTO commodityDTO) {
         System.out.println("全局事务id ：" + RootContext.getXID());
         ObjectResponse<Object> response = new ObjectResponse<>();
         //prepare方法开启TCC模式
-        /**这里使用了dubboservice中取得ObjectResponse的模式，*/
-        BusinessActionContext businessActionContext = new BusinessActionContext();
-        if ( productService.prepare(businessActionContext,commodityDTO)){
+        *//**这里使用了dubboservice中取得ObjectResponse的模式，*//*
+        // BusinessActionContext businessActionContext = new BusinessActionContext();
+        if ( productService.prepare(null,commodityDTO)){
             response.setStatus(RspStatusEnum.SUCCESS.getCode());
             response.setMessage(RspStatusEnum.SUCCESS.getMessage());
             return response;
@@ -39,5 +39,20 @@ public class StorageDubboServiceImpl implements StorageDubboService {
         response.setStatus(RspStatusEnum.FAIL.getCode());
         response.setMessage(RspStatusEnum.FAIL.getMessage());
         return response;
+    }*/
+
+    @Override
+    public boolean prepare(BusinessActionContext actionContext, CommodityDTO commodityDTO) {
+        return productService.prepare(actionContext,commodityDTO);
+    }
+
+    @Override
+    public boolean storageCommit(BusinessActionContext actionContext) {
+        return productService.storageCommit(actionContext);
+    }
+
+    @Override
+    public boolean storageRollback(BusinessActionContext actionContext) {
+        return productService.storageRollback(actionContext);
     }
 }

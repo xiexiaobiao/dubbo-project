@@ -1,5 +1,6 @@
 package com.biao.mall.account.impl;
 
+import com.alibaba.fastjson.JSONObject;
 import com.biao.mall.account.entity.AccountEntity;
 import com.biao.mall.account.dao.AccountDao;
 import com.biao.mall.account.service.AccountService;
@@ -52,7 +53,8 @@ public class AccountServiceImpl extends ServiceImpl<AccountDao, AccountEntity> i
 
     @Override
     public boolean prepare(BusinessActionContext actionContext, AccountDTO accountDTO) {
-        System.out.println("actionContext获取Xid >>> "+actionContext.getXid());
+        System.out.println("actionContext 获取Xid prepare>>> "+actionContext.getXid());
+        System.out.println("actionContext 获取TCC参数 prepare>>> "+actionContext.getActionContext("accountDTO"));
         Map<String,Object> map = new HashMap<>();
         int account = baseMapper.decreaseAccount(accountDTO.getUserId(), accountDTO.getAmount().doubleValue());
         ObjectResponse<Object> response = new ObjectResponse<>();
@@ -73,14 +75,17 @@ public class AccountServiceImpl extends ServiceImpl<AccountDao, AccountEntity> i
 
     @Override
     public boolean commit(BusinessActionContext actionContext) {
+        // 提交逻辑已经在prepare中，故这里的commit可以为空，也不要加类似如下验证逻辑，否则TCC出错
         System.out.println("actionContext获取Xid >>> "+actionContext.getXid());
-        return false;
+        return true;
     }
 
     @Override
     public boolean rollback(BusinessActionContext actionContext) {
         System.out.println("actionContext获取Xid >>> "+actionContext.getXid());
-        AccountDTO accountDTO = (AccountDTO) actionContext.getActionContext("accountDTO");
+        //必须注意actionContext.getActionContext返回的是Object,且不可使用以下语句直接强转！
+        //AccountDTO accountDTO = (AccountDTO) actionContext.getActionContext("accountDTO");
+        AccountDTO accountDTO = JSONObject.toJavaObject((JSONObject)actionContext.getActionContext("accountDTO"),AccountDTO.class);
         int account = baseMapper.increaseAccount(accountDTO.getUserId(), accountDTO.getAmount().doubleValue());
         if (account > 0){
             return true;

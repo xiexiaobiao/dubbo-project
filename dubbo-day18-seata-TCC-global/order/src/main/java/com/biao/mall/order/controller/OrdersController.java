@@ -29,10 +29,10 @@ public class OrdersController {
     @Autowired
     private OrdersService  orderService;
 
-    @PostMapping("/create_order")
+    /*@PostMapping("/create_order")
     ObjectResponse<OrderDTO> createOrder(@RequestBody OrderDTO orderDTO){
         LOGGER.info("请求订单微服务：{}",orderDTO.toString());
         return orderService.createOrder(orderDTO);
-    }
+    }*/
 }
 

@@ -17,7 +17,7 @@ import io.seata.rm.tcc.api.TwoPhaseBusinessAction;
  * @author XieXiaobiao
  * @since 2019-10-06
  */
-@LocalTCC
+//@LocalTCC
 public interface ProductService extends IService<ProductEntity> {
     /**
      * 扣减库存
@@ -25,10 +25,12 @@ public interface ProductService extends IService<ProductEntity> {
 //    ObjectResponse decreaseStorage(CommodityDTO commodityDTO);
 
     /** TCC 模式 */
-    @TwoPhaseBusinessAction(name = "StorageAction",commitMethod = "commit",rollbackMethod = "rollback")
-    boolean prepare(BusinessActionContext actionContext, @BusinessActionContextParameter(paramName = "commodityDTO") CommodityDTO commodityDTO);
+//    @TwoPhaseBusinessAction(name = "StorageAction",commitMethod = "storageCommit",rollbackMethod = "storageRollback")
+//    boolean prepare(BusinessActionContext actionContext, @BusinessActionContextParameter(paramName = "commodityDTO") CommodityDTO commodityDTO);
 
-    boolean commit(BusinessActionContext actionContext);
+    boolean prepare(BusinessActionContext actionContext,CommodityDTO commodityDTO);
 
-    boolean rollback(BusinessActionContext actionContext);
+    boolean storageCommit(BusinessActionContext actionContext);
+
+    boolean storageRollback(BusinessActionContext actionContext);
 }

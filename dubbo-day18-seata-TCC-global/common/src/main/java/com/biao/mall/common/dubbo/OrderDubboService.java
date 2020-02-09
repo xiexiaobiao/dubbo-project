@@ -15,7 +15,7 @@ import io.seata.rm.tcc.api.TwoPhaseBusinessAction;
  **/
 public interface OrderDubboService {
     /**创建订单*/
-    ObjectResponse<OrderDTO> createOrder(OrderDTO orderDTO);
+    //ObjectResponse<OrderDTO> createOrder(OrderDTO orderDTO);
 
     @TwoPhaseBusinessAction(name = "orderAction",commitMethod = "orderCommit",rollbackMethod = "orderRollback")
     boolean prepare(BusinessActionContext actionContext, @BusinessActionContextParameter(paramName = "orderDTO") OrderDTO orderDTO);

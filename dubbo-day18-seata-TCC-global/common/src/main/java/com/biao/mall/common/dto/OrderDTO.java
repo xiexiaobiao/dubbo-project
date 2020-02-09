@@ -1,6 +1,7 @@
 package com.biao.mall.common.dto;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -61,5 +62,16 @@ public class OrderDTO implements Serializable {
 
     public void setOrderAmount(BigDecimal orderAmount) {
         this.orderAmount = orderAmount;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderDTO{" +
+                "orderNo='" + orderNo + '\'' +
+                ", userId='" + userId + '\'' +
+                ", commodityCode='" + commodityCode + '\'' +
+                ", orderCount=" + orderCount +
+                ", orderAmount=" + orderAmount +
+                '}';
     }
 }
