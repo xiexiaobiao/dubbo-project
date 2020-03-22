@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3ac3934-3c67-4308-9e9c-49d27489facb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\maven-repos" />
+        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZT8IgFTS71WKXN3k5NlQ5mJdzm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consumer/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.biao.study.consumer.api" />
+      <recent name="com.biao.study.api.provider" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\day27-sofa-consul\consumer\src\main\resources" />
+      <recent name="D:\day27-sofa-consul\provider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AnnotationConsumerMain">
+    <configuration name="QuickStartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.study.quickstart.QuickStartClient" />
+      <module name="day27-sofa-consul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.study.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickStartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.study.quickstart.QuickStartServer" />
+      <module name="day27-sofa-consul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.study.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationConsumerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.study.consumer.AnnotationConsumerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationProviderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.study.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.biao.study.provider.AnnotationProviderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AnnotationConsumerMain" />
+        <item itemvalue="Spring Boot.AnnotationProviderMain" />
+        <item itemvalue="Application.QuickStartClient" />
+        <item itemvalue="Application.QuickStartServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3ac3934-3c67-4308-9e9c-49d27489facb" name="Default Changelist" comment="" />
+      <created>1584851644241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584851644241</updated>
+      <workItem from="1584851646635" duration="14719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584871550957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584871550957" />
+    <state x="274" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584872836811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="274" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1584872836811" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584860668079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584860668079" />
+    <state width="1493" height="193" key="GridCell.Tab.0.bottom" timestamp="1584881491425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584881491425" />
+    <state width="1493" height="193" key="GridCell.Tab.0.center" timestamp="1584881491424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584881491424" />
+    <state width="1493" height="193" key="GridCell.Tab.0.left" timestamp="1584881491424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584881491424" />
+    <state width="1493" height="193" key="GridCell.Tab.0.right" timestamp="1584881491424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584881491424" />
+    <state width="1493" height="193" key="GridCell.Tab.1.bottom" timestamp="1584881491426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584881491426" />
+    <state width="1493" height="193" key="GridCell.Tab.1.center" timestamp="1584881491425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584881491425" />
+    <state width="1493" height="193" key="GridCell.Tab.1.left" timestamp="1584881491425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584881491425" />
+    <state width="1493" height="193" key="GridCell.Tab.1.right" timestamp="1584881491425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="193" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584881491425" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1584861073839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1584861073839" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1584865552607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584865552607" />
+    <state x="259" y="142" key="new project wizard" timestamp="1584864657944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="259" y="142" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584864657944" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1584852213359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584852213359" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584865328423">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584865328423" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="47.112.187.60" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="/" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+</project>
