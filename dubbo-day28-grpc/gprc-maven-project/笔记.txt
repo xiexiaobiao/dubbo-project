@@ -1,0 +1,7 @@
+1 先运行右侧的 protobuf:compile
+ 生成java类
+2 再运行右侧的 protobuf:compile-custom
+ 生成grpc接口
+
+先运行com.biao.grpc.helloworld.HelloWorld_Server，
+再运行com.biao.grpc.helloworld.HelloWorld_Client

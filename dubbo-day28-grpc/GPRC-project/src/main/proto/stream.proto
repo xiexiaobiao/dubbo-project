@@ -1,0 +1,37 @@
+syntax = "proto3";
+// package 对应于编译生成的java类文件的包
+option java_package = "com.biao.grpc.stream";
+// generate separate files for top-level message, enum, and service defined in the .proto
+option java_multiple_files = false;
+// all the classes from the .proto file are wrapped in a single outer class with the given name
+//option java_outer_classname = "HelloWorldProto";
+// Should generic services be generated in each language, 已过时
+option java_generic_services = false;
+// Sets the objective c class prefix
+option objc_class_prefix = "HLW";
+
+// 服务接口
+service StreamService {
+  //简单rpc
+  rpc SimpleFun(RequestData) returns (ResponseData){}
+  //服务器端流式rpc
+  rpc ServerSideStreamFun(RequestData) returns (stream ResponseData){}
+  //客户端流式rpc
+  rpc ClientSideStreamFun(stream RequestData) returns (ResponseData){}
+  //双向流式rpc
+  rpc TwoWayStreamFun(stream RequestData) returns (stream ResponseData){}
+}
+
+
+// message 关键字定义了一个 String类型，且只有一个字符串类型的value成员，
+// 该成员编号为1来代替名字，这就是protobuf体积小的原因，别的数据描述语言（json、xml）
+// 都是通过成员名字标识，而Portobuf通过唯一编号，不过不便于查阅
+// 请求消息体结构
+message RequestData {
+  string text = 1;
+}
+
+// 响应消息体结构
+message ResponseData {
+  string text = 1;
+}

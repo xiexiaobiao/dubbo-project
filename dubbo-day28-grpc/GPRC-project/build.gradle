@@ -1,0 +1,95 @@
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+    dependencies {
+        // protobuf 编译插件,会在右侧gradle--other中，添加Proto相关的任务(共6个)
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.12'
+    }
+}
+
+//plugins {
+//    id 'java'
+//    id 'com.google.protobuf'
+//    id 'com.google.protobuf' version '0.8.8'
+//}
+
+apply plugin: 'java'
+apply plugin: 'com.google.protobuf'
+
+
+group 'com.biao.grpc'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+}
+
+dependencies {
+
+    //这里必须引入lib目录的j2ee相关jar，否则即使每次手动加入jar依赖，但启动应用时gradle会reimport，
+    // 导致一直提示因少依赖而无法解析，这也是gradle引入第三方jar的方式
+    compile fileTree(dir: "lib", include: "*.jar")
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'io.grpc:grpc-netty-shaded:1.29.0'
+    implementation 'io.grpc:grpc-protobuf:1.29.0'
+    implementation 'io.grpc:grpc-stub:1.29.0'
+}
+
+sourceSets {
+    main {
+        proto {
+            // .proto文件目录
+            srcDir 'src/main/proto'
+        }
+        java {
+            // include self written and generated code, 源代码生成到一个单独的目录
+            srcDirs 'src/main/java','generated-sources/main/java'
+        }
+    }
+    // remove the test configuration - at least in your example you don't have a special test proto file
+/*    test {
+        proto {
+            srcDir 'src/test/proto'
+        }
+        proto {
+            srcDir 'src/test/java'
+        }
+    }*/
+}
+
+protobuf {
+    // Configure the protoc executable
+    protoc {
+        // Download from repositories ，从仓库下载，
+        artifact = "com.google.protobuf:protoc:3.11.0"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.29.0'
+        }
+    }
+    //'src' 改为'generated-sources',则会变更.proto文件对应的java类文件生成目录
+    generateProtoTasks.generatedFilesBaseDir = 'src/main/java'
+
+    generateProtoTasks {
+        // all() returns the collection of all protoc tasks
+        all()*.plugins {
+            grpc {}
+        }
+
+        // In addition to all(),you may get the task collection by various
+        // criteria:
+
+        // (Java only) returns tasks for a sourceSet
+        ofSourceSet('main')
+    }
+}
+
+// 资料参考： https://www.jb51.cc/java/124594.html
