@@ -34,7 +34,10 @@ public class HelloWorld_Client {
     }
 
     public  void greet(String name){
-        com.biao.grpc.helloworld.HelloRequest request = com.biao.grpc.helloworld.HelloRequest.newBuilder().setName(name).build();
+        com.biao.grpc.helloworld.HelloRequest request = com.biao.grpc.helloworld.HelloRequest
+                .newBuilder()
+                .setName(name)
+                .build();
         com.biao.grpc.helloworld.HelloReply response;
         try{
             response = blockingStub.sayHello(request);

@@ -117,12 +117,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.GPRC-project [clean]">
-    <configuration name="HelloWorld_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.grpc.helloworld.HelloWorld_Client" />
+    <configuration name="StreamClientSideClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.grpc.stream.StreamClientSideClient" />
       <module name="GPRC-project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.biao.grpc.helloworld.*" />
+          <option name="PATTERN" value="com.biao.grpc.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +130,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.biao.grpc.helloworld.HelloWorld_Server" />
+    <configuration name="StreamServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.grpc.stream.StreamServer" />
       <module name="GPRC-project.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.biao.grpc.helloworld.*" />
+          <option name="PATTERN" value="com.biao.grpc.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamServerSideClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.grpc.stream.StreamServerSideClient" />
+      <module name="GPRC-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.grpc.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamTwoWayClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.biao.grpc.stream.StreamTwoWayClient" />
+      <module name="GPRC-project.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.biao.grpc.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,51 +188,13 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GPRC-project [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="compileJava" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GPRC-project [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="generateProto" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld_Client" />
         <item itemvalue="Gradle.GPRC-project [clean]" />
-        <item itemvalue="Gradle.GPRC-project [generateProto]" />
-        <item itemvalue="Application.HelloWorld_Server" />
-        <item itemvalue="Gradle.GPRC-project [compileJava]" />
+        <item itemvalue="Application.StreamTwoWayClient" />
+        <item itemvalue="Application.StreamClientSideClient" />
+        <item itemvalue="Application.StreamServerSideClient" />
+        <item itemvalue="Application.StreamServer" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +221,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587473063631</updated>
       <workItem from="1587473065393" duration="2424000" />
-      <workItem from="1587475523411" duration="52202000" />
+      <workItem from="1587475523411" duration="70429000" />
     </task>
     <servers />
   </component>
@@ -253,10 +241,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="495" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1587473980767" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587553976556">
+    <state x="846" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1588054284896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587553976556" />
+    <state x="846" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588054284896" />
     <state x="560" y="98" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1587898025181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -273,22 +261,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587905787487" />
-    <state width="1493" height="234" key="GridCell.Tab.0.bottom" timestamp="1587965994545">
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom" timestamp="1588062625019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587965994545" />
-    <state width="1493" height="234" key="GridCell.Tab.0.center" timestamp="1587965994545">
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588062625019" />
+    <state width="1493" height="126" key="GridCell.Tab.0.center" timestamp="1588062625019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587965994545" />
-    <state width="1493" height="234" key="GridCell.Tab.0.left" timestamp="1587965994545">
+    <state width="1493" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588062625019" />
+    <state width="1493" height="126" key="GridCell.Tab.0.left" timestamp="1588062625019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587965994545" />
-    <state width="1493" height="234" key="GridCell.Tab.0.right" timestamp="1587965994545">
+    <state width="1493" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588062625019" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right" timestamp="1588062625019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587965994545" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588062625019" />
     <state width="1493" height="188" key="GridCell.Tab.1.bottom" timestamp="1587912393135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

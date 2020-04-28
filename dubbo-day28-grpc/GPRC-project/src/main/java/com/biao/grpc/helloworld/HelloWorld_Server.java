@@ -67,8 +67,12 @@ public class HelloWorld_Server {
     private class GreeterImpl extends com.biao.grpc.helloworld.GreeterGrpc.GreeterImplBase {
 
         @Override
-        public void sayHello(com.biao.grpc.helloworld.HelloRequest req, StreamObserver<com.biao.grpc.helloworld.HelloReply> responseObserver){
-            com.biao.grpc.helloworld.HelloReply reply = com.biao.grpc.helloworld.HelloReply.newBuilder().setMessage(("Hello "+req.getName())).build();
+        public void sayHello(com.biao.grpc.helloworld.HelloRequest req,
+                             StreamObserver<com.biao.grpc.helloworld.HelloReply> responseObserver){
+            com.biao.grpc.helloworld.HelloReply reply = com.biao.grpc.helloworld.HelloReply.
+                    newBuilder()
+                    .setMessage(("Hello "+req.getName()))
+                    .build();
             responseObserver.onNext(reply);
             responseObserver.onCompleted();
             System.out.println("Message from gRPC-Client:" + req.getName());
