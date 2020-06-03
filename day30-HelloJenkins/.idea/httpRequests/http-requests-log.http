@@ -1,0 +1,14 @@
+GET http://localhost:8081/jenkins/biao
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-06-03T105238.200.txt
+
+###
+
+GET http://localhost:8081/jenkins/biao
+Accept: */*
+Cache-Control: no-cache
+
+###
+
