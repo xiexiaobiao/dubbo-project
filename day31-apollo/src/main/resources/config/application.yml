@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+
+#AppId是应用的身份信息,必需
+app:
+ id: 2000001
+#apollo meta server信息,推荐通过SLB（Software Load Balancer）做动态负载均衡
+apollo:
+  meta: http://192.168.2.226:8085
+    #如果应用开启了访问秘钥，客户端需要配置秘钥，否则无法获取配置
+  #accesskey:
+    #secret: 0ac9f5d932114eb8ad1d67acf13b311b
+  bootstrap:
+    enabled: true
+    # will inject 'application' and 'TEST1' namespaces in bootstrap phase
+    namespaces: application
